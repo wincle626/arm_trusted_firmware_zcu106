@@ -1,0 +1,2823 @@
+Archive member included to satisfy reference by file (symbol)
+
+./build/zynqmp/release/lib/libc.a(memcpy.o)
+                              ./build/zynqmp/release/bl31/pm_api_pinctrl.o (memcpy)
+./build/zynqmp/release/lib/libc.a(memmove.o)
+                              ./build/zynqmp/release/bl31/xlat_tables_common.o (memmove)
+./build/zynqmp/release/lib/libc.a(memset.o)
+                              ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o (memset)
+./build/zynqmp/release/lib/libc.a(printf.o)
+                              ./build/zynqmp/release/bl31/tf_log.o (vprintf)
+./build/zynqmp/release/lib/libc.a(putchar.o)
+                              ./build/zynqmp/release/bl31/tf_log.o (putchar)
+./build/zynqmp/release/lib/libc.a(strlen.o)
+                              ./build/zynqmp/release/bl31/zynqmp_common.o (strlen)
+
+Allocating common symbols
+Common symbol       size              file
+
+rt_svc_descs_indices
+                    0x80              ./build/zynqmp/release/bl31/runtime_svc.o
+psci_cpu_pd_nodes   0x40              ./build/zynqmp/release/bl31/psci_common.o
+psci_caps           0x4               ./build/zynqmp/release/bl31/psci_setup.o
+psci_plat_pm_ops    0x8               ./build/zynqmp/release/bl31/psci_common.o
+zynqmp_sec_entry    0x8               ./build/zynqmp/release/bl31/plat_psci.o
+percpu_data         0x100             ./build/zynqmp/release/bl31/cpu_data_array.o
+psci_spd_pm         0x8               ./build/zynqmp/release/bl31/psci_common.o
+
+Discarded input sections
+
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/build_message.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/build_message.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/build_message.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cci.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cci.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cci.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_ipi.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_ipi.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_ipi.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_zynqmp.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_zynqmp.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_zynqmp.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_startup.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_startup.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_startup.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_topology.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_topology.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_topology.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_sys.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_sys.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_sys.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_client.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_client.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_client.o
+ .text.pm_get_proc_by_node
+                0x0000000000000000       0x54 ./build/zynqmp/release/bl31/pm_client.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_main.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_main.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_main.o
+ .text.bl31_lib_init
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/bl31_main.o
+ .text.bl31_set_next_image_type
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/bl31_main.o
+ .text.bl31_get_next_image_type
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/bl31_main.o
+ .text.bl31_register_bl32_init
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/bl31_main.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .text.set_scr_el3_from_rm
+                0x0000000000000000       0x84 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .text.set_routing_model
+                0x0000000000000000       0x98 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .text.disable_intr_rm_local
+                0x0000000000000000       0x34 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .text.enable_intr_rm_local
+                0x0000000000000000       0x54 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .text.register_interrupt_type_handler
+                0x0000000000000000       0x6c ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+ .text.cm_set_context
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_svc.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_svc.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_svc.o
+ .text.handle_runtime_svc
+                0x0000000000000000       0x70 ./build/zynqmp/release/bl31/runtime_svc.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data_array.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data_array.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data_array.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context_mgmt.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context_mgmt.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context_mgmt.o
+ .text.cm_el1_sysregs_context_save
+                0x0000000000000000       0x7c ./build/zynqmp/release/bl31/context_mgmt.o
+ .text.cm_set_elr_el3
+                0x0000000000000000       0x24 ./build/zynqmp/release/bl31/context_mgmt.o
+ .text.cm_set_elr_spsr_el3
+                0x0000000000000000       0x28 ./build/zynqmp/release/bl31/context_mgmt.o
+ .text.cm_write_scr_el3_bit
+                0x0000000000000000       0x40 ./build/zynqmp/release/bl31/context_mgmt.o
+ .text.cm_get_scr_el3
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/context_mgmt.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/errata_report.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/errata_report.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/errata_report.o
+ .text.errata_needs_reporting
+                0x0000000000000000       0x60 ./build/zynqmp/release/bl31/errata_report.o
+ .text.errata_print_msg
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/errata_report.o
+ .comment       0x0000000000000000       0x33 ./build/zynqmp/release/bl31/errata_report.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/errata_report.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_off.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_off.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_off.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_on.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_on.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_on.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_suspend.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_suspend.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_suspend.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_common.o
+ .text.psci_validate_suspend_req
+                0x0000000000000000       0xa8 ./build/zynqmp/release/bl31/psci_common.o
+ .text.psci_register_spd_pm_hook
+                0x0000000000000000       0x3c ./build/zynqmp/release/bl31/psci_common.o
+ .text.psci_secondaries_brought_up
+                0x0000000000000000       0x3c ./build/zynqmp/release/bl31/psci_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_main.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_main.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_main.o
+ .text.psci_version
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/psci_main.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_setup.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_setup.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_setup.o
+ .text.psci_prepare_next_non_secure_ctx
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/psci_setup.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_system_off.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_system_off.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_system_off.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_mem_protect.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_mem_protect.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_mem_protect.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spe.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spe.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spe.o
+ .text.spe_disable
+                0x0000000000000000       0x34 ./build/zynqmp/release/bl31/spe.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl_common.o
+ .text.page_align
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/bl_common.o
+ .text.is_mem_free
+                0x0000000000000000       0x50 ./build/zynqmp/release/bl31/bl_common.o
+ .text.get_image_size
+                0x0000000000000000       0x60 ./build/zynqmp/release/bl31/bl_common.o
+ .text.load_auth_image
+                0x0000000000000000       0xd4 ./build/zynqmp/release/bl31/bl_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/tf_log.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/tf_log.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/tf_log.o
+ .text.tf_log_set_max_level
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/tf_log.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text.bl2_el3_plat_prepare_exit
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text.plat_error_handler
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text.bl2_plat_preload_setup
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text.bl2_plat_handle_pre_image_load
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text.bl2_plat_handle_post_image_load
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text.plat_try_next_boot_source
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_log_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_log_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_log_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_common.o
+ .text.bl31_plat_runtime_setup
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_common.o
+ .text.platform_core_pos_helper
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables.o
+ .text.enable_mmu_el1
+                0x0000000000000000       0x7c ./build/zynqmp/release/bl31/xlat_tables.o
+ .text.enable_mmu_direct_el1
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/xlat_tables.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/delay_timer.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/delay_timer.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/delay_timer.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gic_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gic_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_isenabler
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_icenabler
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_ispendr
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_icpendr
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_isactiver
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_icactiver
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_ipriorityr
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_read_nsacr
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_write_ispendr
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_write_icpendr
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_write_isactiver
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_write_icactiver
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_write_nsacr
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_get_igroupr
+                0x0000000000000000       0x20 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_set_igroupr
+                0x0000000000000000       0x30 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_set_icenabler
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_set_ispendr
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_set_icpendr
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_get_isactiver
+                0x0000000000000000       0x20 ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_set_isactiver
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/gic_common.o
+ .text.gicd_set_icactiver
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/gic_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_main.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_main.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_is_fiq_enabled
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_get_pending_interrupt_id
+                0x0000000000000000       0x28 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_acknowledge_interrupt
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_end_of_interrupt
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_get_interrupt_group
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_get_running_priority
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_get_interrupt_active
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_enable_interrupt
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_disable_interrupt
+                0x0000000000000000       0x28 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_set_interrupt_priority
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_set_interrupt_type
+                0x0000000000000000       0x70 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_raise_sgi
+                0x0000000000000000       0x30 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_set_spi_routing
+                0x0000000000000000       0x34 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_clear_interrupt_pending
+                0x0000000000000000       0x28 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_set_interrupt_pending
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_set_pmr
+                0x0000000000000000       0x2c ./build/zynqmp/release/bl31/gicv2_main.o
+ .text.gicv2_interrupt_set_cfg
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/gicv2_main.o
+ .bss.gic_lock  0x0000000000000000        0x4 ./build/zynqmp/release/bl31/gicv2_main.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text.gicd_read_itargetsr
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text.gicd_read_cpendsgir
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text.gicd_read_spendsgir
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text.gicd_write_itargetsr
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text.gicd_write_cpendsgir
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text.gicd_write_spendsgir
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_cci.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_cci.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_cci.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_common.o
+ .text.arm_setup_romlib
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/arm_common.o
+ .text.arm_get_spsr_for_bl33_entry
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/arm_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text.plat_arm_gic_cpuif_enable
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text.plat_arm_gic_cpuif_disable
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text.plat_arm_gic_redistif_on
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text.plat_arm_gic_redistif_off
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text.plat_arm_gic_save
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text.plat_arm_gic_resume
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_pending_interrupt_id
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_acknowledge_interrupt
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_interrupt_type
+                0x0000000000000000       0x20 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_end_of_interrupt
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_interrupt_type_to_line
+                0x0000000000000000       0x34 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_running_priority
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_is_spi
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_is_ppi
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_is_sgi
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_interrupt_active
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_enable_interrupt
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_disable_interrupt
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_interrupt_priority
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_has_interrupt_type
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_interrupt_type
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_raise_el3_sgi
+                0x0000000000000000       0x2c ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_spi_routing
+                0x0000000000000000       0x3c ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_interrupt_pending
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_clear_interrupt_pending
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_set_priority_mask
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text.plat_ic_get_interrupt_id
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/aem_generic.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/aem_generic.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/aem_generic.o
+ .rodata.aem_generic_regs
+                0x0000000000000000        0x1 ./build/zynqmp/release/bl31/aem_generic.o
+ .text.asm.aem_generic_cpu_reg_dump
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/aem_generic.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cortex_a53.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cortex_a53.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cortex_a53.o
+ .rodata.gic_reg_name
+                0x0000000000000000       0x92 ./build/zynqmp/release/bl31/cortex_a53.o
+ .rodata.cci_reg_name
+                0x0000000000000000       0x31 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.errata_a53_826319_wa
+                0x0000000000000000       0x20 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.check_errata_826319
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.a53_disable_non_temporal_hint
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.check_errata_disable_non_temporal_hint
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.check_errata_835769
+                0x0000000000000000       0x24 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.check_errata_843419
+                0x0000000000000000       0x24 ./build/zynqmp/release/bl31/cortex_a53.o
+ .rodata.cortex_a53_regs
+                0x0000000000000000       0x36 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.cortex_a53_cpu_reg_dump
+                0x0000000000000000       0x18 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_entrypoint.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_entrypoint.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_entrypoint.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/crash_reporting.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/crash_reporting.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/crash_reporting.o
+ .rodata.gic_reg_name
+                0x0000000000000000       0x92 ./build/zynqmp/release/bl31/crash_reporting.o
+ .rodata.cci_reg_name
+                0x0000000000000000       0x31 ./build/zynqmp/release/bl31/crash_reporting.o
+ .text.asm.crash_panic
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/crash_reporting.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ea_delegate.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ea_delegate.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ea_delegate.o
+ .text.asm.handle_lower_el_ea_esb
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/ea_delegate.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_exceptions.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_exceptions.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_exceptions.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/setjmp.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/setjmp.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/setjmp.o
+ .text.asm.setjmp
+                0x0000000000000000       0x28 ./build/zynqmp/release/bl31/setjmp.o
+ .text.asm.longjmp
+                0x0000000000000000       0x28 ./build/zynqmp/release/bl31/setjmp.o
+ .debug_frame   0x0000000000000000       0x40 ./build/zynqmp/release/bl31/setjmp.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/dsu_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/dsu_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/dsu_helpers.o
+ .text.asm.check_errata_dsu_936184
+                0x0000000000000000       0x30 ./build/zynqmp/release/bl31/dsu_helpers.o
+ .text.asm.errata_dsu_936184_wa
+                0x0000000000000000       0x30 ./build/zynqmp/release/bl31/dsu_helpers.o
+ .debug_frame   0x0000000000000000       0x40 ./build/zynqmp/release/bl31/dsu_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/platform_mp_stack.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/platform_mp_stack.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/platform_mp_stack.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .text.asm.cpu_rev_var_ls
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .text.asm.check_wa_cve_2017_5715
+                0x0000000000000000       0x20 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .text.asm.wa_cve_2018_3639_get_disable_ptr
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spinlock.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spinlock.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spinlock.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_helpers.o
+ .text.asm.psci_do_pwrup_cache_maintenance
+                0x0000000000000000       0x34 ./build/zynqmp/release/bl31/psci_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context.o
+ .text.asm.el1_sysregs_context_save
+                0x0000000000000000       0xb4 ./build/zynqmp/release/bl31/context.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/debug.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/debug.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/debug.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cache_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cache_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_level3
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/cache_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/misc_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/misc_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.get_afflvl_shift
+                0x0000000000000000       0x14 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.mpidr_mask_lower_afflvls
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.eret
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.smc  0x0000000000000000        0x4 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.memcpy16
+                0x0000000000000000       0x30 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_el3
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_icache_el3
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_el1
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.disable_mmu_icache_el1
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/misc_helpers.o
+ .text.asm.fixup_gdt_reloc
+                0x0000000000000000       0x8c ./build/zynqmp/release/bl31/misc_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/platform_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/platform_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.plat_report_exception
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.plat_crash_console_init
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.plat_crash_console_putc
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.plat_crash_console_flush
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.bl1_plat_prepare_exit
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.bl32_plat_enable_mmu
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text.asm.plat_handle_uncontainable_ea
+                0x0000000000000000        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/console.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/console.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/console.o
+ .text.asm.console_uninit
+                0x0000000000000000       0x10 ./build/zynqmp/release/bl31/console.o
+ .text.asm.console_getc
+                0x0000000000000000        0xc ./build/zynqmp/release/bl31/console.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cdns_console.o
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cdns_console.o
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cdns_console.o
+ .text.asm.console_cdns_putc
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/cdns_console.o
+ .text.asm.console_cdns_core_getc
+                0x0000000000000000       0x1c ./build/zynqmp/release/bl31/cdns_console.o
+ .text.asm.console_cdns_getc
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/cdns_console.o
+ .text.asm.console_cdns_flush
+                0x0000000000000000        0x8 ./build/zynqmp/release/bl31/cdns_console.o
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memcpy.o)
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memcpy.o)
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memcpy.o)
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memmove.o)
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memmove.o)
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memmove.o)
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memset.o)
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memset.o)
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memset.o)
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .text.printf   0x0000000000000000       0x54 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(putchar.o)
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(putchar.o)
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(putchar.o)
+ .text          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(strlen.o)
+ .data          0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(strlen.o)
+ .bss           0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+RAM              0x00000000fffea000 0x0000000000015fff xrw
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x00000000fffea000                . = 0xfffea000
+                0x0000000000000001                ASSERT ((. == ALIGN (0x1000)), BL31_BASE address is not aligned on a page boundary.)
+                0x00000000fffea000                __BL31_START__ = .
+
+.text           0x00000000fffea000     0x8000
+                0x00000000fffea000                __TEXT_START__ = .
+ *bl31_entrypoint.o(.text*)
+ .text.asm.bl31_entrypoint
+                0x00000000fffea000      0x110 ./build/zynqmp/release/bl31/bl31_entrypoint.o
+                0x00000000fffea000                bl31_entrypoint
+ .text.asm.bl31_warm_entrypoint
+                0x00000000fffea110       0x74 ./build/zynqmp/release/bl31/bl31_entrypoint.o
+                0x00000000fffea110                bl31_warm_entrypoint
+ *(.text*)
+ .text.cci_init
+                0x00000000fffea184       0x14 ./build/zynqmp/release/bl31/cci.o
+                0x00000000fffea184                cci_init
+ .text.cci_enable_snoop_dvm_reqs
+                0x00000000fffea198       0x3c ./build/zynqmp/release/bl31/cci.o
+                0x00000000fffea198                cci_enable_snoop_dvm_reqs
+ .text.cci_disable_snoop_dvm_reqs
+                0x00000000fffea1d4       0x3c ./build/zynqmp/release/bl31/cci.o
+                0x00000000fffea1d4                cci_disable_snoop_dvm_reqs
+ .text.plat_get_target_pwr_state
+                0x00000000fffea210       0x2c ./build/zynqmp/release/bl31/plat_psci_common.o
+                0x00000000fffea210                plat_get_target_pwr_state
+ .text.ipi_smc_handler
+                0x00000000fffea23c      0x128 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+                0x00000000fffea23c                ipi_smc_handler
+ .text.pm_ipi_send_common.isra.2
+                0x00000000fffea364       0x44 ./build/zynqmp/release/bl31/pm_ipi.o
+ .text.pm_ipi_init
+                0x00000000fffea3a8       0x24 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea3a8                pm_ipi_init
+ .text.pm_ipi_send_non_blocking
+                0x00000000fffea3cc       0x58 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea3cc                pm_ipi_send_non_blocking
+ .text.pm_ipi_send
+                0x00000000fffea424       0x58 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea424                pm_ipi_send
+ .text.pm_ipi_buff_read_callb
+                0x00000000fffea47c       0x38 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea47c                pm_ipi_buff_read_callb
+ .text.pm_ipi_send_sync
+                0x00000000fffea4b4       0xa0 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea4b4                pm_ipi_send_sync
+ .text.pm_ipi_irq_enable
+                0x00000000fffea554       0x10 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea554                pm_ipi_irq_enable
+ .text.pm_ipi_irq_clear
+                0x00000000fffea564       0x10 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea564                pm_ipi_irq_clear
+ .text.pm_ipi_irq_status
+                0x00000000fffea574       0x24 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000fffea574                pm_ipi_irq_status
+ .text.bl31_set_default_config
+                0x00000000fffea598       0x48 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .text.bl31_plat_get_next_image_ep_info
+                0x00000000fffea5e0       0x1c ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+                0x00000000fffea5e0                bl31_plat_get_next_image_ep_info
+ .text.bl31_early_platform_setup2
+                0x00000000fffea5fc       0xb8 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+                0x00000000fffea5fc                bl31_early_platform_setup2
+ .text.bl31_platform_setup
+                0x00000000fffea6b4       0x14 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+                0x00000000fffea6b4                bl31_platform_setup
+ .text.bl31_plat_runtime_setup
+                0x00000000fffea6c8        0x4 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+                0x00000000fffea6c8                bl31_plat_runtime_setup
+ .text.bl31_plat_arch_setup
+                0x00000000fffea6cc       0xd0 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+                0x00000000fffea6cc                bl31_plat_arch_setup
+ .text.zynqmp_cpu_standby
+                0x00000000fffea79c        0xc ./build/zynqmp/release/bl31/plat_psci.o
+                0x00000000fffea79c                zynqmp_cpu_standby
+ .text.zynqmp_validate_power_state
+                0x00000000fffea7a8       0x20 ./build/zynqmp/release/bl31/plat_psci.o
+                0x00000000fffea7a8                zynqmp_validate_power_state
+ .text.zynqmp_validate_ns_entrypoint
+                0x00000000fffea7c8        0x8 ./build/zynqmp/release/bl31/plat_psci.o
+                0x00000000fffea7c8                zynqmp_validate_ns_entrypoint
+ .text.zynqmp_get_sys_suspend_power_state
+                0x00000000fffea7d0       0x10 ./build/zynqmp/release/bl31/plat_psci.o
+                0x00000000fffea7d0                zynqmp_get_sys_suspend_power_state
+ .text.zynqmp_system_reset
+                0x00000000fffea7e0       0x24 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.zynqmp_system_off
+                0x00000000fffea804       0x24 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.zynqmp_pwr_domain_suspend_finish
+                0x00000000fffea828       0x48 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.zynqmp_pwr_domain_on_finish
+                0x00000000fffea870       0x14 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.zynqmp_pwr_domain_suspend
+                0x00000000fffea884       0x60 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.zynqmp_pwr_domain_off
+                0x00000000fffea8e4       0x38 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.zynqmp_pwr_domain_on
+                0x00000000fffea91c       0x54 ./build/zynqmp/release/bl31/plat_psci.o
+ .text.plat_setup_psci_ops
+                0x00000000fffea970       0x1c ./build/zynqmp/release/bl31/plat_psci.o
+                0x00000000fffea970                plat_setup_psci_ops
+ .text.plat_core_pos_by_mpidr
+                0x00000000fffea98c       0x20 ./build/zynqmp/release/bl31/plat_zynqmp.o
+                0x00000000fffea98c                plat_core_pos_by_mpidr
+ .text.fsbl_atf_handover
+                0x00000000fffea9ac      0x160 ./build/zynqmp/release/bl31/plat_startup.o
+                0x00000000fffea9ac                fsbl_atf_handover
+ .text.plat_get_power_domain_tree_desc
+                0x00000000fffeab0c        0xc ./build/zynqmp/release/bl31/plat_topology.o
+                0x00000000fffeab0c                plat_get_power_domain_tree_desc
+ .text.sip_svc_setup
+                0x00000000fffeab18        0x4 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .text.sip_svc_smc_handler
+                0x00000000fffeab1c       0x98 ./build/zynqmp/release/bl31/sip_svc_setup.o
+                0x00000000fffeab1c                sip_svc_smc_handler
+ .text.zynqmp_ipi_config_table_init
+                0x00000000fffeabb4       0x10 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+                0x00000000fffeabb4                zynqmp_ipi_config_table_init
+ .text.pm_setup
+                0x00000000fffeabc4       0x78 ./build/zynqmp/release/bl31/pm_svc_main.o
+                0x00000000fffeabc4                pm_setup
+ .text.pm_smc_handler
+                0x00000000fffeac3c      0x4a0 ./build/zynqmp/release/bl31/pm_svc_main.o
+                0x00000000fffeac3c                pm_smc_handler
+ .text.pm_get_shutdown_scope
+                0x00000000fffeb0dc        0xc ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb0dc                pm_get_shutdown_scope
+ .text.pm_self_suspend
+                0x00000000fffeb0e8       0x70 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb0e8                pm_self_suspend
+ .text.pm_req_suspend
+                0x00000000fffeb158       0x48 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb158                pm_req_suspend
+ .text.pm_req_wakeup
+                0x00000000fffeb1a0       0x58 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb1a0                pm_req_wakeup
+ .text.pm_force_powerdown
+                0x00000000fffeb1f8       0x44 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb1f8                pm_force_powerdown
+ .text.pm_abort_suspend
+                0x00000000fffeb23c       0x40 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb23c                pm_abort_suspend
+ .text.pm_set_wakeup_source
+                0x00000000fffeb27c       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb27c                pm_set_wakeup_source
+ .text.pm_system_shutdown
+                0x00000000fffeb2ac       0x44 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb2ac                pm_system_shutdown
+ .text.pm_req_node
+                0x00000000fffeb2f0       0x48 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb2f0                pm_req_node
+ .text.pm_set_requirement
+                0x00000000fffeb338       0x48 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb338                pm_set_requirement
+ .text.pm_release_node
+                0x00000000fffeb380       0x2c ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb380                pm_release_node
+ .text.pm_set_max_latency
+                0x00000000fffeb3ac       0x2c ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb3ac                pm_set_max_latency
+ .text.pm_get_api_version
+                0x00000000fffeb3d8       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb3d8                pm_get_api_version
+ .text.pm_set_configuration
+                0x00000000fffeb408        0x8 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb408                pm_set_configuration
+ .text.pm_init_finalize
+                0x00000000fffeb410       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb410                pm_init_finalize
+ .text.pm_get_node_status
+                0x00000000fffeb440       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb440                pm_get_node_status
+ .text.pm_register_notifier
+                0x00000000fffeb478       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb478                pm_register_notifier
+ .text.pm_get_op_characteristic
+                0x00000000fffeb4b0       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb4b0                pm_get_op_characteristic
+ .text.pm_reset_assert
+                0x00000000fffeb4e0       0x2c ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb4e0                pm_reset_assert
+ .text.pm_reset_get_status
+                0x00000000fffeb50c       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb50c                pm_reset_get_status
+ .text.pm_mmio_write
+                0x00000000fffeb544       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb544                pm_mmio_write
+ .text.pm_mmio_read
+                0x00000000fffeb57c       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb57c                pm_mmio_read
+ .text.pm_fpga_load
+                0x00000000fffeb5b4       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb5b4                pm_fpga_load
+ .text.pm_fpga_get_status
+                0x00000000fffeb5ec       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb5ec                pm_fpga_get_status
+ .text.pm_get_chipid
+                0x00000000fffeb61c       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb61c                pm_get_chipid
+ .text.pm_secure_rsaaes
+                0x00000000fffeb64c       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb64c                pm_secure_rsaaes
+ .text.pm_aes_engine
+                0x00000000fffeb684       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb684                pm_aes_engine
+ .text.pm_get_callbackdata
+                0x00000000fffeb6b4       0x58 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb6b4                pm_get_callbackdata
+ .text.pm_pinctrl_request
+                0x00000000fffeb70c       0x34 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb70c                pm_pinctrl_request
+ .text.pm_pinctrl_release
+                0x00000000fffeb740       0x34 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb740                pm_pinctrl_release
+ .text.pm_pinctrl_get_function
+                0x00000000fffeb774       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb774                pm_pinctrl_get_function
+ .text.pm_pinctrl_set_function
+                0x00000000fffeb7ac       0x34 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb7ac                pm_pinctrl_set_function
+ .text.pm_pinctrl_get_config
+                0x00000000fffeb7e0       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb7e0                pm_pinctrl_get_config
+ .text.pm_pinctrl_set_config
+                0x00000000fffeb810       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb810                pm_pinctrl_set_config
+ .text.pm_ioctl
+                0x00000000fffeb848        0x4 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb848                pm_ioctl
+ .text.pm_clock_enable
+                0x00000000fffeb84c       0x64 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb84c                pm_clock_enable
+ .text.pm_clock_disable
+                0x00000000fffeb8b0       0x64 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb8b0                pm_clock_disable
+ .text.pm_clock_getstate
+                0x00000000fffeb914       0x68 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb914                pm_clock_getstate
+ .text.pm_clock_setrate
+                0x00000000fffeb97c        0x8 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb97c                pm_clock_setrate
+ .text.pm_clock_getrate
+                0x00000000fffeb984        0x8 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb984                pm_clock_getrate
+ .text.pm_clock_setparent
+                0x00000000fffeb98c       0x68 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb98c                pm_clock_setparent
+ .text.pm_clock_getparent
+                0x00000000fffeb9f4       0x68 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeb9f4                pm_clock_getparent
+ .text.pm_query_data
+                0x00000000fffeba5c      0x100 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffeba5c                pm_query_data
+ .text.pm_sha_hash
+                0x00000000fffebb5c       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebb5c                pm_sha_hash
+ .text.pm_rsa_core
+                0x00000000fffebb94       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebb94                pm_rsa_core
+ .text.pm_secure_image
+                0x00000000fffebbcc       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebbcc                pm_secure_image
+ .text.pm_fpga_read
+                0x00000000fffebc04       0x38 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebc04                pm_fpga_read
+ .text.pm_pll_set_parameter
+                0x00000000fffebc3c       0x54 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebc3c                pm_pll_set_parameter
+ .text.pm_clock_setdivider
+                0x00000000fffebc90       0xa8 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebc90                pm_clock_setdivider
+ .text.pm_pll_get_parameter
+                0x00000000fffebd38       0x4c ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebd38                pm_pll_get_parameter
+ .text.pm_clock_getdivider
+                0x00000000fffebd84       0xf8 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebd84                pm_clock_getdivider
+ .text.pm_pll_set_mode
+                0x00000000fffebe7c       0x50 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebe7c                pm_pll_set_mode
+ .text.pm_pll_get_mode
+                0x00000000fffebecc       0x48 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebecc                pm_pll_get_mode
+ .text.pm_register_access
+                0x00000000fffebf14       0x7c ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebf14                pm_register_access
+ .text.pm_efuse_access
+                0x00000000fffebf90       0x30 ./build/zynqmp/release/bl31/pm_api_sys.o
+                0x00000000fffebf90                pm_efuse_access
+ .text.pm_api_pinctrl_get_num_pins
+                0x00000000fffebfc0       0x10 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+                0x00000000fffebfc0                pm_api_pinctrl_get_num_pins
+ .text.pm_api_pinctrl_get_num_functions
+                0x00000000fffebfd0       0x10 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+                0x00000000fffebfd0                pm_api_pinctrl_get_num_functions
+ .text.pm_api_pinctrl_get_num_func_groups
+                0x00000000fffebfe0       0x54 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+                0x00000000fffebfe0                pm_api_pinctrl_get_num_func_groups
+ .text.pm_api_pinctrl_get_function_name
+                0x00000000fffec034       0x38 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+                0x00000000fffec034                pm_api_pinctrl_get_function_name
+ .text.pm_api_pinctrl_get_function_groups
+                0x00000000fffec06c       0xbc ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+                0x00000000fffec06c                pm_api_pinctrl_get_function_groups
+ .text.pm_api_pinctrl_get_pin_groups
+                0x00000000fffec128       0xb4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+                0x00000000fffec128                pm_api_pinctrl_get_pin_groups
+ .text.pm_ioctl_sd_dll_reset
+                0x00000000fffec1dc       0x90 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .text.pm_api_ioctl
+                0x00000000fffec26c      0x4a4 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+                0x00000000fffec26c                pm_api_ioctl
+ .text.pm_clock_valid
+                0x00000000fffec710       0x34 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .text.pm_api_clock_get_num_clocks
+                0x00000000fffec744       0x10 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffec744                pm_api_clock_get_num_clocks
+ .text.pm_api_clock_get_name
+                0x00000000fffec754       0x8c ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffec754                pm_api_clock_get_name
+ .text.pm_api_clock_get_topology
+                0x00000000fffec7e0       0xd0 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffec7e0                pm_api_clock_get_topology
+ .text.pm_api_clock_get_fixedfactor_params
+                0x00000000fffec8b0       0xa0 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffec8b0                pm_api_clock_get_fixedfactor_params
+ .text.pm_api_clock_get_parents
+                0x00000000fffec950       0xcc ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffec950                pm_api_clock_get_parents
+ .text.pm_api_clock_get_attributes
+                0x00000000fffeca1c       0x44 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffeca1c                pm_api_clock_get_attributes
+ .text.pm_api_clock_get_max_divisor
+                0x00000000fffeca60       0x6c ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffeca60                pm_api_clock_get_max_divisor
+ .text.pm_clock_get_pll
+                0x00000000fffecacc       0x3c ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecacc                pm_clock_get_pll
+ .text.pm_clock_get_pll_node_id
+                0x00000000fffecb08       0x30 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecb08                pm_clock_get_pll_node_id
+ .text.pm_clock_get_pll_by_related_clk
+                0x00000000fffecb38       0x68 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecb38                pm_clock_get_pll_by_related_clk
+ .text.pm_clock_pll_enable
+                0x00000000fffecba0       0x30 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecba0                pm_clock_pll_enable
+ .text.pm_clock_pll_disable
+                0x00000000fffecbd0       0x18 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecbd0                pm_clock_pll_disable
+ .text.pm_clock_pll_get_state
+                0x00000000fffecbe8       0x50 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecbe8                pm_clock_pll_get_state
+ .text.pm_clock_pll_set_parent
+                0x00000000fffecc38       0x4c ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecc38                pm_clock_pll_set_parent
+ .text.pm_clock_pll_get_parent
+                0x00000000fffecc84       0x64 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecc84                pm_clock_pll_get_parent
+ .text.pm_clock_set_pll_mode
+                0x00000000fffecce8       0x34 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecce8                pm_clock_set_pll_mode
+ .text.pm_clock_get_pll_mode
+                0x00000000fffecd1c       0x38 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecd1c                pm_clock_get_pll_mode
+ .text.pm_clock_id_is_valid
+                0x00000000fffecd54       0x34 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecd54                pm_clock_id_is_valid
+ .text.pm_clock_has_div
+                0x00000000fffecd88       0x74 ./build/zynqmp/release/bl31/pm_api_clock.o
+                0x00000000fffecd88                pm_clock_has_div
+ .text.pm_get_proc
+                0x00000000fffecdfc       0x1c ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000fffecdfc                pm_get_proc
+ .text.pm_client_suspend
+                0x00000000fffece18      0x11c ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000fffece18                pm_client_suspend
+ .text.pm_client_abort_suspend
+                0x00000000fffecf34       0x50 ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000fffecf34                pm_client_abort_suspend
+ .text.pm_client_wakeup
+                0x00000000fffecf84       0x5c ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000fffecf84                pm_client_wakeup
+ .text.pm_set_suspend_mode
+                0x00000000fffecfe0       0x20 ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000fffecfe0                pm_set_suspend_mode
+ .text.get_arm_std_svc_args
+                0x00000000fffed000        0xc ./build/zynqmp/release/bl31/bl31_main.o
+                0x00000000fffed000                get_arm_std_svc_args
+ .text.bl31_prepare_next_image_entry
+                0x00000000fffed00c       0x60 ./build/zynqmp/release/bl31/bl31_main.o
+                0x00000000fffed00c                bl31_prepare_next_image_entry
+ .text.bl31_main
+                0x00000000fffed06c       0x64 ./build/zynqmp/release/bl31/bl31_main.o
+                0x00000000fffed06c                bl31_main
+ .text.get_scr_el3_from_routing_model
+                0x00000000fffed0d0       0x30 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+                0x00000000fffed0d0                get_scr_el3_from_routing_model
+ .text.get_interrupt_type_handler
+                0x00000000fffed100       0x2c ./build/zynqmp/release/bl31/interrupt_mgmt.o
+                0x00000000fffed100                get_interrupt_type_handler
+ .text.cm_get_context
+                0x00000000fffed12c        0xc ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+                0x00000000fffed12c                cm_get_context
+ .text.cm_get_context_by_index
+                0x00000000fffed138       0x24 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+                0x00000000fffed138                cm_get_context_by_index
+ .text.cm_set_context_by_index
+                0x00000000fffed15c       0x28 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+                0x00000000fffed15c                cm_set_context_by_index
+ .text.runtime_svc_init
+                0x00000000fffed184      0x138 ./build/zynqmp/release/bl31/runtime_svc.o
+                0x00000000fffed184                runtime_svc_init
+ .text.arm_arch_svc_smc_handler
+                0x00000000fffed2bc       0x74 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .text.std_svc_setup
+                0x00000000fffed330       0x24 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .text.std_svc_smc_handler
+                0x00000000fffed354       0xa4 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .text.cm_init  0x00000000fffed3f8        0x4 ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed3f8                cm_init
+ .text.cm_setup_context
+                0x00000000fffed3fc       0xfc ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed3fc                cm_setup_context
+ .text.cm_init_context_by_index
+                0x00000000fffed4f8       0x2c ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed4f8                cm_init_context_by_index
+ .text.cm_init_my_context
+                0x00000000fffed524       0x2c ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed524                cm_init_my_context
+ .text.cm_el1_sysregs_context_restore
+                0x00000000fffed550       0x7c ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed550                cm_el1_sysregs_context_restore
+ .text.cm_set_next_eret_context
+                0x00000000fffed5cc       0x20 ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed5cc                cm_set_next_eret_context
+ .text.cm_prepare_el3_exit
+                0x00000000fffed5ec       0xc0 ./build/zynqmp/release/bl31/context_mgmt.o
+                0x00000000fffed5ec                cm_prepare_el3_exit
+ .text.psci_do_cpu_off
+                0x00000000fffed6ac       0xf8 ./build/zynqmp/release/bl31/psci_off.o
+                0x00000000fffed6ac                psci_do_cpu_off
+ .text.psci_cpu_on_start
+                0x00000000fffed7a4      0x160 ./build/zynqmp/release/bl31/psci_on.o
+                0x00000000fffed7a4                psci_cpu_on_start
+ .text.psci_cpu_on_finish
+                0x00000000fffed904       0xc0 ./build/zynqmp/release/bl31/psci_on.o
+                0x00000000fffed904                psci_cpu_on_finish
+ .text.psci_cpu_suspend_start
+                0x00000000fffed9c4      0x18c ./build/zynqmp/release/bl31/psci_suspend.o
+                0x00000000fffed9c4                psci_cpu_suspend_start
+ .text.psci_cpu_suspend_finish
+                0x00000000fffedb50       0xa0 ./build/zynqmp/release/bl31/psci_suspend.o
+                0x00000000fffedb50                psci_cpu_suspend_finish
+ .text.psci_validate_power_state
+                0x00000000fffedbf0       0x24 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedbf0                psci_validate_power_state
+ .text.psci_query_sys_suspend_pwrstate
+                0x00000000fffedc14       0x10 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedc14                psci_query_sys_suspend_pwrstate
+ .text.psci_is_last_on_cpu
+                0x00000000fffedc24       0x58 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedc24                psci_is_last_on_cpu
+ .text.psci_init_req_local_pwr_states
+                0x00000000fffedc7c       0x20 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedc7c                psci_init_req_local_pwr_states
+ .text.psci_get_target_local_pwr_states
+                0x00000000fffedc9c       0x80 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedc9c                psci_get_target_local_pwr_states
+ .text.psci_get_parent_pwr_domain_nodes
+                0x00000000fffedd1c       0x44 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedd1c                psci_get_parent_pwr_domain_nodes
+ .text.psci_set_pwr_domains_to_run
+                0x00000000fffedd60       0x70 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedd60                psci_set_pwr_domains_to_run
+ .text.psci_do_state_coordination
+                0x00000000fffeddd0      0x104 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffeddd0                psci_do_state_coordination
+ .text.psci_find_max_off_lvl
+                0x00000000fffeded4       0x2c ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffeded4                psci_find_max_off_lvl
+ .text.psci_find_target_suspend_lvl
+                0x00000000fffedf00       0x24 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedf00                psci_find_target_suspend_lvl
+ .text.psci_acquire_pwr_domain_locks
+                0x00000000fffedf24       0x78 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedf24                psci_acquire_pwr_domain_locks
+ .text.psci_release_pwr_domain_locks
+                0x00000000fffedf9c       0x6c ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffedf9c                psci_release_pwr_domain_locks
+ .text.psci_validate_mpidr
+                0x00000000fffee008       0x20 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffee008                psci_validate_mpidr
+ .text.psci_validate_entry_point
+                0x00000000fffee028       0xf8 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffee028                psci_validate_entry_point
+ .text.psci_warmboot_entrypoint
+                0x00000000fffee120       0xa8 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffee120                psci_warmboot_entrypoint
+ .text.psci_spd_migrate_info
+                0x00000000fffee1c8       0x20 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffee1c8                psci_spd_migrate_info
+ .text.psci_print_power_domain_map
+                0x00000000fffee1e8        0x4 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffee1e8                psci_print_power_domain_map
+ .text.psci_do_pwrdown_sequence
+                0x00000000fffee1ec        0x4 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000fffee1ec                psci_do_pwrdown_sequence
+ .text.psci_cpu_on
+                0x00000000fffee1f0       0x5c ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee1f0                psci_cpu_on
+ .text.psci_cpu_suspend
+                0x00000000fffee24c       0xec ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee24c                psci_cpu_suspend
+ .text.psci_system_suspend
+                0x00000000fffee338       0x74 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee338                psci_system_suspend
+ .text.psci_cpu_off
+                0x00000000fffee3ac        0x8 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee3ac                psci_cpu_off
+ .text.psci_affinity_info
+                0x00000000fffee3b4       0x58 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee3b4                psci_affinity_info
+ .text.psci_migrate
+                0x00000000fffee40c       0x7c ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee40c                psci_migrate
+ .text.psci_migrate_info_type
+                0x00000000fffee488       0x18 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee488                psci_migrate_info_type
+ .text.psci_migrate_info_up_cpu
+                0x00000000fffee4a0       0x28 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee4a0                psci_migrate_info_up_cpu
+ .text.psci_node_hw_state
+                0x00000000fffee4c8       0x54 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee4c8                psci_node_hw_state
+ .text.psci_features
+                0x00000000fffee51c       0x80 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee51c                psci_features
+ .text.psci_smc_handler
+                0x00000000fffee59c      0x154 ./build/zynqmp/release/bl31/psci_main.o
+                0x00000000fffee59c                psci_smc_handler
+ .text.psci_arch_setup
+                0x00000000fffee6f0       0x1c ./build/zynqmp/release/bl31/psci_setup.o
+                0x00000000fffee6f0                psci_arch_setup
+ .text.psci_setup
+                0x00000000fffee70c      0x310 ./build/zynqmp/release/bl31/psci_setup.o
+                0x00000000fffee70c                psci_setup
+ .text.psci_system_off
+                0x00000000fffeea1c       0x38 ./build/zynqmp/release/bl31/psci_system_off.o
+                0x00000000fffeea1c                psci_system_off
+ .text.psci_system_reset
+                0x00000000fffeea54       0x38 ./build/zynqmp/release/bl31/psci_system_off.o
+                0x00000000fffeea54                psci_system_reset
+ .text.psci_system_reset2
+                0x00000000fffeea8c       0xa4 ./build/zynqmp/release/bl31/psci_system_off.o
+                0x00000000fffeea8c                psci_system_reset2
+ .text.psci_mem_protect
+                0x00000000fffeeb30       0x5c ./build/zynqmp/release/bl31/psci_mem_protect.o
+                0x00000000fffeeb30                psci_mem_protect
+ .text.psci_mem_chk_range
+                0x00000000fffeeb8c       0x48 ./build/zynqmp/release/bl31/psci_mem_protect.o
+                0x00000000fffeeb8c                psci_mem_chk_range
+ .text.bakery_lock_get
+                0x00000000fffeebd4       0xbc ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+                0x00000000fffeebd4                bakery_lock_get
+ .text.bakery_lock_release
+                0x00000000fffeec90       0x34 ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+                0x00000000fffeec90                bakery_lock_release
+ .text.spe_supported
+                0x00000000fffeecc4       0x14 ./build/zynqmp/release/bl31/spe.o
+                0x00000000fffeecc4                spe_supported
+ .text.spe_drain_buffers_hook
+                0x00000000fffeecd8       0x34 ./build/zynqmp/release/bl31/spe.o
+ .text.spe_enable
+                0x00000000fffeed0c       0x44 ./build/zynqmp/release/bl31/spe.o
+                0x00000000fffeed0c                spe_enable
+ .text.print_entry_point_info
+                0x00000000fffeed50        0x4 ./build/zynqmp/release/bl31/bl_common.o
+                0x00000000fffeed50                print_entry_point_info
+ .text.tf_log   0x00000000fffeed54       0x98 ./build/zynqmp/release/bl31/tf_log.o
+                0x00000000fffeed54                tf_log
+ .text.setup_page_tables
+                0x00000000fffeedec       0x28 ./build/zynqmp/release/bl31/plat_bl_common.o
+                0x00000000fffeedec                setup_page_tables
+ .text.plat_log_get_prefix
+                0x00000000fffeee14       0x30 ./build/zynqmp/release/bl31/plat_log_common.o
+                0x00000000fffeee14                plat_log_get_prefix
+ .text.plat_ea_handler
+                0x00000000fffeee44       0x40 ./build/zynqmp/release/bl31/plat_common.o
+                0x00000000fffeee44                plat_ea_handler
+ .text.init_xlation_table_inner
+                0x00000000fffeee84      0x1f0 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .text.print_mmap
+                0x00000000fffef074        0x4 ./build/zynqmp/release/bl31/xlat_tables_common.o
+                0x00000000fffef074                print_mmap
+ .text.mmap_add_region
+                0x00000000fffef078       0xe8 ./build/zynqmp/release/bl31/xlat_tables_common.o
+                0x00000000fffef078                mmap_add_region
+ .text.mmap_add
+                0x00000000fffef160       0x3c ./build/zynqmp/release/bl31/xlat_tables_common.o
+                0x00000000fffef160                mmap_add
+ .text.init_xlation_table
+                0x00000000fffef19c       0x94 ./build/zynqmp/release/bl31/xlat_tables_common.o
+                0x00000000fffef19c                init_xlation_table
+ .text.xlat_arch_current_el
+                0x00000000fffef230        0xc ./build/zynqmp/release/bl31/xlat_tables.o
+                0x00000000fffef230                xlat_arch_current_el
+ .text.xlat_arch_get_xn_desc
+                0x00000000fffef23c       0x14 ./build/zynqmp/release/bl31/xlat_tables.o
+                0x00000000fffef23c                xlat_arch_get_xn_desc
+ .text.init_xlat_tables
+                0x00000000fffef250       0x84 ./build/zynqmp/release/bl31/xlat_tables.o
+                0x00000000fffef250                init_xlat_tables
+ .text.enable_mmu_el3
+                0x00000000fffef2d4       0x7c ./build/zynqmp/release/bl31/xlat_tables.o
+                0x00000000fffef2d4                enable_mmu_el3
+ .text.enable_mmu_direct_el3
+                0x00000000fffef350        0x4 ./build/zynqmp/release/bl31/xlat_tables.o
+                0x00000000fffef350                enable_mmu_direct_el3
+ .text.udelay   0x00000000fffef354       0x68 ./build/zynqmp/release/bl31/delay_timer.o
+                0x00000000fffef354                udelay
+ .text.mdelay   0x00000000fffef3bc        0xc ./build/zynqmp/release/bl31/delay_timer.o
+                0x00000000fffef3bc                mdelay
+ .text.timer_init
+                0x00000000fffef3c8        0xc ./build/zynqmp/release/bl31/delay_timer.o
+                0x00000000fffef3c8                timer_init
+ .text.get_timer_value
+                0x00000000fffef3d4        0xc ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .text.generic_delay_timer_init_args
+                0x00000000fffef3e0       0x20 ./build/zynqmp/release/bl31/generic_delay_timer.o
+                0x00000000fffef3e0                generic_delay_timer_init_args
+ .text.generic_delay_timer_init
+                0x00000000fffef400       0x48 ./build/zynqmp/release/bl31/generic_delay_timer.o
+                0x00000000fffef400                generic_delay_timer_init
+ .text.gicd_read_igroupr
+                0x00000000fffef448       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef448                gicd_read_igroupr
+ .text.gicd_read_icfgr
+                0x00000000fffef45c       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef45c                gicd_read_icfgr
+ .text.gicd_write_igroupr
+                0x00000000fffef470       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef470                gicd_write_igroupr
+ .text.gicd_write_isenabler
+                0x00000000fffef484       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef484                gicd_write_isenabler
+ .text.gicd_write_icenabler
+                0x00000000fffef498       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef498                gicd_write_icenabler
+ .text.gicd_write_ipriorityr
+                0x00000000fffef4ac       0x10 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef4ac                gicd_write_ipriorityr
+ .text.gicd_write_icfgr
+                0x00000000fffef4bc       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef4bc                gicd_write_icfgr
+ .text.gicd_clr_igroupr
+                0x00000000fffef4d0       0x30 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef4d0                gicd_clr_igroupr
+ .text.gicd_set_isenabler
+                0x00000000fffef500        0xc ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef500                gicd_set_isenabler
+ .text.gicd_set_ipriorityr
+                0x00000000fffef50c       0x14 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef50c                gicd_set_ipriorityr
+ .text.gicd_set_icfgr
+                0x00000000fffef520       0x40 ./build/zynqmp/release/bl31/gic_common.o
+                0x00000000fffef520                gicd_set_icfgr
+ .text.gicv2_cpuif_enable
+                0x00000000fffef560       0x20 ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef560                gicv2_cpuif_enable
+ .text.gicv2_cpuif_disable
+                0x00000000fffef580       0x20 ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef580                gicv2_cpuif_disable
+ .text.gicv2_pcpu_distif_init
+                0x00000000fffef5a0       0x48 ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef5a0                gicv2_pcpu_distif_init
+ .text.gicv2_distif_init
+                0x00000000fffef5e8       0x58 ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef5e8                gicv2_distif_init
+ .text.gicv2_driver_init
+                0x00000000fffef640       0x14 ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef640                gicv2_driver_init
+ .text.gicv2_get_pending_interrupt_type
+                0x00000000fffef654       0x18 ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef654                gicv2_get_pending_interrupt_type
+ .text.gicv2_set_pe_target_mask
+                0x00000000fffef66c       0x3c ./build/zynqmp/release/bl31/gicv2_main.o
+                0x00000000fffef66c                gicv2_set_pe_target_mask
+ .text.gicv2_get_cpuif_id
+                0x00000000fffef6a8        0xc ./build/zynqmp/release/bl31/gicv2_helpers.o
+                0x00000000fffef6a8                gicv2_get_cpuif_id
+ .text.gicv2_spis_configure_defaults
+                0x00000000fffef6b4       0x9c ./build/zynqmp/release/bl31/gicv2_helpers.o
+                0x00000000fffef6b4                gicv2_spis_configure_defaults
+ .text.gicv2_secure_spis_configure_props
+                0x00000000fffef750       0xac ./build/zynqmp/release/bl31/gicv2_helpers.o
+                0x00000000fffef750                gicv2_secure_spis_configure_props
+ .text.gicv2_secure_ppi_sgi_setup_props
+                0x00000000fffef7fc       0xe8 ./build/zynqmp/release/bl31/gicv2_helpers.o
+                0x00000000fffef7fc                gicv2_secure_ppi_sgi_setup_props
+ .text.plat_arm_interconnect_init
+                0x00000000fffef8e4       0x14 ./build/zynqmp/release/bl31/arm_cci.o
+                0x00000000fffef8e4                plat_arm_interconnect_init
+ .text.plat_arm_interconnect_enter_coherency
+                0x00000000fffef8f8        0xc ./build/zynqmp/release/bl31/arm_cci.o
+                0x00000000fffef8f8                plat_arm_interconnect_enter_coherency
+ .text.plat_arm_interconnect_exit_coherency
+                0x00000000fffef904        0xc ./build/zynqmp/release/bl31/arm_cci.o
+                0x00000000fffef904                plat_arm_interconnect_exit_coherency
+ .text.plat_get_ns_image_entrypoint
+                0x00000000fffef910        0x8 ./build/zynqmp/release/bl31/arm_common.o
+                0x00000000fffef910                plat_get_ns_image_entrypoint
+ .text.arm_get_spsr_for_bl32_entry
+                0x00000000fffef918        0x8 ./build/zynqmp/release/bl31/arm_common.o
+                0x00000000fffef918                arm_get_spsr_for_bl32_entry
+ .text.plat_arm_get_mmap
+                0x00000000fffef920        0xc ./build/zynqmp/release/bl31/arm_common.o
+                0x00000000fffef920                plat_arm_get_mmap
+ .text.plat_arm_gic_driver_init
+                0x00000000fffef92c        0xc ./build/zynqmp/release/bl31/arm_gicv2.o
+                0x00000000fffef92c                plat_arm_gic_driver_init
+ .text.plat_arm_gic_init
+                0x00000000fffef938       0x20 ./build/zynqmp/release/bl31/arm_gicv2.o
+                0x00000000fffef938                plat_arm_gic_init
+ .text.plat_arm_gic_pcpu_init
+                0x00000000fffef958       0x18 ./build/zynqmp/release/bl31/arm_gicv2.o
+                0x00000000fffef958                plat_arm_gic_pcpu_init
+ .text.plat_ic_get_pending_interrupt_type
+                0x00000000fffef970       0x30 ./build/zynqmp/release/bl31/plat_gicv2.o
+                0x00000000fffef970                plat_ic_get_pending_interrupt_type
+ .text.ipi_config_table_init
+                0x00000000fffef9a0       0x14 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffef9a0                ipi_config_table_init
+ .text.ipi_mb_validate
+                0x00000000fffef9b4       0x64 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffef9b4                ipi_mb_validate
+ .text.ipi_mb_open
+                0x00000000fffefa18       0x38 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefa18                ipi_mb_open
+ .text.ipi_mb_release
+                0x00000000fffefa50       0x28 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefa50                ipi_mb_release
+ .text.ipi_mb_enquire_status
+                0x00000000fffefa78       0x44 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefa78                ipi_mb_enquire_status
+ .text.ipi_mb_notify
+                0x00000000fffefabc       0x40 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefabc                ipi_mb_notify
+ .text.ipi_mb_ack
+                0x00000000fffefafc       0x28 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefafc                ipi_mb_ack
+ .text.ipi_mb_disable_irq
+                0x00000000fffefb24        0x4 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefb24                ipi_mb_disable_irq
+ .text.ipi_mb_enable_irq
+                0x00000000fffefb28       0x28 ./build/zynqmp/release/bl31/ipi.o
+                0x00000000fffefb28                ipi_mb_enable_irq
+ .text.zynqmp_get_silicon_ver
+                0x00000000fffefb50       0x28 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .text.zynqmp_get_uart_clk
+                0x00000000fffefb78       0x2c ./build/zynqmp/release/bl31/zynqmp_common.o
+                0x00000000fffefb78                zynqmp_get_uart_clk
+ .text.zynqmp_get_bootmode
+                0x00000000fffefba4       0x40 ./build/zynqmp/release/bl31/zynqmp_common.o
+                0x00000000fffefba4                zynqmp_get_bootmode
+ .text.zynqmp_config_setup
+                0x00000000fffefbe4      0x198 ./build/zynqmp/release/bl31/zynqmp_common.o
+                0x00000000fffefbe4                zynqmp_config_setup
+ .text.plat_get_syscnt_freq2
+                0x00000000fffefd7c       0x34 ./build/zynqmp/release/bl31/zynqmp_common.o
+                0x00000000fffefd7c                plat_get_syscnt_freq2
+ .text.asm.aem_generic_core_pwr_dwn
+                0x00000000fffefdb0       0x18 ./build/zynqmp/release/bl31/aem_generic.o
+ .text.asm.aem_generic_cluster_pwr_dwn
+                0x00000000fffefdc8       0x18 ./build/zynqmp/release/bl31/aem_generic.o
+ .text.asm.cortex_a53_disable_dcache
+                0x00000000fffefde0       0x14 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.cortex_a53_disable_smp
+                0x00000000fffefdf4       0x18 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.errata_a53_855873_wa
+                0x00000000fffefe0c       0x1c ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.check_errata_855873
+                0x00000000fffefe28        0x8 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.cortex_a53_reset_func
+                0x00000000fffefe30       0x28 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.cortex_a53_core_pwr_dwn
+                0x00000000fffefe58       0x18 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.cortex_a53_cluster_pwr_dwn
+                0x00000000fffefe70       0x24 ./build/zynqmp/release/bl31/cortex_a53.o
+ .text.asm.report_unhandled_exception
+                0x00000000fffefe94        0x4 ./build/zynqmp/release/bl31/crash_reporting.o
+                0x00000000fffefe94                report_unhandled_exception
+                0x00000000fffefe94                report_unhandled_interrupt
+ .text.asm.enter_lower_el_sync_ea
+                0x00000000fffefe98       0x40 ./build/zynqmp/release/bl31/ea_delegate.o
+                0x00000000fffefe98                enter_lower_el_sync_ea
+ .text.asm.enter_lower_el_async_ea
+                0x00000000fffefed8       0x18 ./build/zynqmp/release/bl31/ea_delegate.o
+                0x00000000fffefed8                enter_lower_el_async_ea
+ .text.asm.delegate_sync_ea
+                0x00000000fffefef0        0x4 ./build/zynqmp/release/bl31/ea_delegate.o
+ .text.asm.delegate_async_ea
+                0x00000000fffefef4        0x4 ./build/zynqmp/release/bl31/ea_delegate.o
+ .text.asm.ea_proceed
+                0x00000000fffefef8       0x68 ./build/zynqmp/release/bl31/ea_delegate.o
+ .text.asm.smc_handler
+                0x00000000fffeff60       0xb8 ./build/zynqmp/release/bl31/runtime_exceptions.o
+ .text.asm.plat_get_my_stack
+                0x00000000ffff0018       0x1c ./build/zynqmp/release/bl31/platform_mp_stack.o
+                0x00000000ffff0018                plat_get_my_stack
+ .text.asm.plat_set_my_stack
+                0x00000000ffff0034       0x10 ./build/zynqmp/release/bl31/platform_mp_stack.o
+                0x00000000ffff0034                plat_set_my_stack
+ .text.asm.init_cpu_data_ptr
+                0x00000000ffff0044       0x14 ./build/zynqmp/release/bl31/cpu_data.o
+                0x00000000ffff0044                init_cpu_data_ptr
+ .text.asm._cpu_data_by_index
+                0x00000000ffff0058       0x14 ./build/zynqmp/release/bl31/cpu_data.o
+                0x00000000ffff0058                _cpu_data_by_index
+ .text.asm.reset_handler
+                0x00000000ffff006c       0x20 ./build/zynqmp/release/bl31/cpu_helpers.o
+                0x00000000ffff006c                reset_handler
+ .text.asm.prepare_cpu_pwr_dwn
+                0x00000000ffff008c       0x24 ./build/zynqmp/release/bl31/cpu_helpers.o
+                0x00000000ffff008c                prepare_cpu_pwr_dwn
+ .text.asm.init_cpu_ops
+                0x00000000ffff00b0       0x20 ./build/zynqmp/release/bl31/cpu_helpers.o
+                0x00000000ffff00b0                init_cpu_ops
+ .text.asm.get_cpu_ops_ptr
+                0x00000000ffff00d0       0x3c ./build/zynqmp/release/bl31/cpu_helpers.o
+                0x00000000ffff00d0                get_cpu_ops_ptr
+ .text.asm.cpu_get_rev_var
+                0x00000000ffff010c       0x10 ./build/zynqmp/release/bl31/cpu_helpers.o
+                0x00000000ffff010c                cpu_get_rev_var
+ .text.asm.cpu_rev_var_hs
+                0x00000000ffff011c       0x14 ./build/zynqmp/release/bl31/cpu_helpers.o
+                0x00000000ffff011c                cpu_rev_var_hs
+ .text.asm.spin_lock
+                0x00000000ffff0130       0x20 ./build/zynqmp/release/bl31/spinlock.o
+                0x00000000ffff0130                spin_lock
+ .text.asm.spin_unlock
+                0x00000000ffff0150        0x8 ./build/zynqmp/release/bl31/spinlock.o
+                0x00000000ffff0150                spin_unlock
+ .text.asm.psci_do_pwrdown_cache_maintenance
+                0x00000000ffff0158       0x3c ./build/zynqmp/release/bl31/psci_helpers.o
+                0x00000000ffff0158                psci_do_pwrdown_cache_maintenance
+ .text.asm.psci_power_down_wfi
+                0x00000000ffff0194        0xc ./build/zynqmp/release/bl31/psci_helpers.o
+                0x00000000ffff0194                psci_power_down_wfi
+ .text.asm.el1_sysregs_context_restore
+                0x00000000ffff01a0       0xb4 ./build/zynqmp/release/bl31/context.o
+                0x00000000ffff01a0                el1_sysregs_context_restore
+ .text.asm.save_gp_registers
+                0x00000000ffff0254       0x48 ./build/zynqmp/release/bl31/context.o
+                0x00000000ffff0254                save_gp_registers
+ .text.asm.restore_gp_registers
+                0x00000000ffff029c       0x48 ./build/zynqmp/release/bl31/context.o
+                0x00000000ffff029c                restore_gp_registers
+ .text.asm.restore_gp_registers_eret
+                0x00000000ffff02e4        0xc ./build/zynqmp/release/bl31/context.o
+                0x00000000ffff02e4                restore_gp_registers_eret
+ .text.asm.el3_exit
+                0x00000000ffff02f0       0x24 ./build/zynqmp/release/bl31/context.o
+                0x00000000ffff02f0                el3_exit
+ .text.asm.asm_print_str
+                0x00000000ffff0314       0x18 ./build/zynqmp/release/bl31/debug.o
+                0x00000000ffff0314                asm_print_str
+ .text.asm.asm_print_hex
+                0x00000000ffff032c       0x30 ./build/zynqmp/release/bl31/debug.o
+                0x00000000ffff032c                asm_print_hex
+ .text.asm.do_panic
+                0x00000000ffff035c       0x2c ./build/zynqmp/release/bl31/debug.o
+                0x00000000ffff035c                do_panic
+                0x00000000ffff035c                el3_panic
+ .text.asm.flush_dcache_range
+                0x00000000ffff0388       0x38 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff0388                flush_dcache_range
+ .text.asm.clean_dcache_range
+                0x00000000ffff03c0       0x38 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff03c0                clean_dcache_range
+ .text.asm.inv_dcache_range
+                0x00000000ffff03f8       0x38 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff03f8                inv_dcache_range
+ .text.asm.do_dcsw_op
+                0x00000000ffff0430       0xdc ./build/zynqmp/release/bl31/cache_helpers.o
+ .text.asm.dcsw_op_louis
+                0x00000000ffff050c       0x14 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff050c                dcsw_op_louis
+ .text.asm.dcsw_op_all
+                0x00000000ffff0520       0x14 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff0520                dcsw_op_all
+ .text.asm.dcsw_op_level1
+                0x00000000ffff0534       0x10 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff0534                dcsw_op_level1
+ .text.asm.dcsw_op_level2
+                0x00000000ffff0544       0x10 ./build/zynqmp/release/bl31/cache_helpers.o
+                0x00000000ffff0544                dcsw_op_level2
+ .text.asm.zeromem
+                0x00000000ffff0554        0x8 ./build/zynqmp/release/bl31/misc_helpers.o
+                0x00000000ffff0554                zeromem
+ .text.asm.zeromem_dczva
+                0x00000000ffff055c       0xe8 ./build/zynqmp/release/bl31/misc_helpers.o
+                0x00000000ffff055c                zero_normalmem
+ .text.asm.plat_reset_handler
+                0x00000000ffff0644        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+                0x00000000ffff0644                plat_reset_handler
+ .text.asm.plat_disable_acp
+                0x00000000ffff0648        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+                0x00000000ffff0648                plat_disable_acp
+ .text.asm.plat_panic_handler
+                0x00000000ffff064c        0x8 ./build/zynqmp/release/bl31/platform_helpers.o
+                0x00000000ffff064c                plat_panic_handler
+ .text.asm.bl31_plat_enable_mmu
+                0x00000000ffff0654        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+                0x00000000ffff0654                bl31_plat_enable_mmu
+ .text.asm.plat_handle_double_fault
+                0x00000000ffff0658        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+                0x00000000ffff0658                plat_handle_double_fault
+ .text.asm.plat_handle_el3_ea
+                0x00000000ffff065c        0x4 ./build/zynqmp/release/bl31/platform_helpers.o
+                0x00000000ffff065c                plat_handle_el3_ea
+ .text.asm.console_init
+                0x00000000ffff0660       0x14 ./build/zynqmp/release/bl31/console.o
+                0x00000000ffff0660                console_init
+ .text.asm.console_putc
+                0x00000000ffff0674        0xc ./build/zynqmp/release/bl31/console.o
+                0x00000000ffff0674                console_putc
+ .text.asm.console_flush
+                0x00000000ffff0680        0xc ./build/zynqmp/release/bl31/console.o
+                0x00000000ffff0680                console_flush
+ *fill*         0x00000000ffff068c        0x4 
+ .text.asm.plat_secondary_cold_boot_setup
+                0x00000000ffff0690       0x28 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff0690                plat_secondary_cold_boot_setup
+ .text.asm.plat_is_my_cpu_primary
+                0x00000000ffff06b8       0x14 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff06b8                plat_is_my_cpu_primary
+ .text.asm.plat_my_core_pos
+                0x00000000ffff06cc        0x8 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff06cc                plat_my_core_pos
+ .text.asm.zynqmp_calc_core_pos
+                0x00000000ffff06d4       0x10 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff06d4                zynqmp_calc_core_pos
+ .text.asm.plat_crash_console_init
+                0x00000000ffff06e4       0x18 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff06e4                plat_crash_console_init
+ .text.asm.plat_crash_console_putc
+                0x00000000ffff06fc        0x8 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff06fc                plat_crash_console_putc
+ .text.asm.plat_crash_console_flush
+                0x00000000ffff0704        0x8 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff0704                plat_crash_console_flush
+ .text.asm.platform_mem_init
+                0x00000000ffff070c        0x4 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+                0x00000000ffff070c                platform_mem_init
+ .text.asm.console_cdns_core_init
+                0x00000000ffff0710       0x1c ./build/zynqmp/release/bl31/cdns_console.o
+                0x00000000ffff0710                console_core_init
+                0x00000000ffff0710                console_cdns_core_init
+ .text.asm.console_cdns_core_putc
+                0x00000000ffff072c       0x28 ./build/zynqmp/release/bl31/cdns_console.o
+                0x00000000ffff072c                console_core_putc
+                0x00000000ffff072c                console_cdns_core_putc
+ .text.asm.console_cdns_core_flush
+                0x00000000ffff0754        0x8 ./build/zynqmp/release/bl31/cdns_console.o
+                0x00000000ffff0754                console_cdns_core_flush
+                0x00000000ffff0754                console_core_flush
+ .text.memcpy   0x00000000ffff075c       0x20 ./build/zynqmp/release/lib/libc.a(memcpy.o)
+                0x00000000ffff075c                memcpy
+ .text.memmove  0x00000000ffff077c       0x48 ./build/zynqmp/release/lib/libc.a(memmove.o)
+                0x00000000ffff077c                memmove
+ .text.memset   0x00000000ffff07c4       0x1c ./build/zynqmp/release/lib/libc.a(memset.o)
+                0x00000000ffff07c4                memset
+ .text.unsigned_num_print
+                0x00000000ffff07e0       0xb8 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .text.vprintf  0x00000000ffff0898      0x408 ./build/zynqmp/release/lib/libc.a(printf.o)
+                0x00000000ffff0898                vprintf
+ .text.putchar  0x00000000ffff0ca0       0x2c ./build/zynqmp/release/lib/libc.a(putchar.o)
+                0x00000000ffff0ca0                putchar
+ .text.strlen   0x00000000ffff0ccc       0x1c ./build/zynqmp/release/lib/libc.a(strlen.o)
+                0x00000000ffff0ccc                strlen
+ *(.vectors)
+ *fill*         0x00000000ffff0ce8      0x318 
+ .vectors       0x00000000ffff1000      0x800 ./build/zynqmp/release/bl31/runtime_exceptions.o
+                0x00000000ffff1000                sync_exception_sp_el0
+                0x00000000ffff1000                runtime_exceptions
+                0x00000000ffff1080                irq_sp_el0
+                0x00000000ffff1100                fiq_sp_el0
+                0x00000000ffff1180                serror_sp_el0
+                0x00000000ffff1200                sync_exception_sp_elx
+                0x00000000ffff1280                irq_sp_elx
+                0x00000000ffff1300                fiq_sp_elx
+                0x00000000ffff1380                serror_sp_elx
+                0x00000000ffff1400                sync_exception_aarch64
+                0x00000000ffff1480                irq_aarch64
+                0x00000000ffff1500                fiq_aarch64
+                0x00000000ffff1580                serror_aarch64
+                0x00000000ffff1600                sync_exception_aarch32
+                0x00000000ffff1680                irq_aarch32
+                0x00000000ffff1700                fiq_aarch32
+                0x00000000ffff1780                serror_aarch32
+                0x00000000ffff2000                . = ALIGN (0x1000)
+ *fill*         0x00000000ffff1800      0x800 
+                0x00000000ffff2000                __TEXT_END__ = .
+
+.iplt           0x00000000ffff2000        0x0
+ .iplt          0x00000000ffff2000        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+
+.rodata         0x00000000ffff2000     0x1000
+                0x00000000ffff2000                __RODATA_START__ = .
+ *(.rodata*)
+ .rodata.build_message
+                0x00000000ffff2000       0x1e ./build/zynqmp/release/bl31/build_message.o
+                0x00000000ffff2000                build_message
+ .rodata.version_string
+                0x00000000ffff201e       0x1d ./build/zynqmp/release/bl31/build_message.o
+                0x00000000ffff201e                version_string
+ *fill*         0x00000000ffff203b        0x1 
+ .rodata.ipi_smc_handler
+                0x00000000ffff203c        0x7 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rodata.bl31_early_platform_setup2.str1.1
+                0x00000000ffff2043       0x3e ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ *fill*         0x00000000ffff2081        0x7 
+ .rodata.zynqmp_psci_ops
+                0x00000000ffff2088       0xa0 ./build/zynqmp/release/bl31/plat_psci.o
+ .rodata.fsbl_atf_handover.str1.1
+                0x00000000ffff2128       0x66 ./build/zynqmp/release/bl31/plat_startup.o
+ .rodata.plat_power_domain_tree_desc
+                0x00000000ffff218e        0x2 ./build/zynqmp/release/bl31/plat_topology.o
+ .rodata.str1.1
+                0x00000000ffff2190        0x8 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .rodata.zynqmp_ipi_table
+                0x00000000ffff2198       0x84 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+ .rodata.pm_setup.str1.1
+                0x00000000ffff221c       0x50 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .rodata.pm_query_data
+                0x00000000ffff226c        0xd ./build/zynqmp/release/bl31/pm_api_sys.o
+ .rodata.pm_api_pinctrl_get_function_name.str1.1
+                0x00000000ffff2279       0x10 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ *fill*         0x00000000ffff2289        0x7 
+ .rodata.zynqmp_pin_groups
+                0x00000000ffff2290      0x270 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .rodata.pm_api_ioctl
+                0x00000000ffff2500       0x2c ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .rodata        0x00000000ffff252c       0x40 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .rodata.pm_api_clock_get_name.str1.1
+                0x00000000ffff256c        0xb ./build/zynqmp/release/bl31/pm_api_clock.o
+ *fill*         0x00000000ffff2577        0x1 
+ .rodata.pm_clk_invalid_list
+                0x00000000ffff2578       0x58 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .rodata.apu_ipi
+                0x00000000ffff25d0       0x10 ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000ffff25d0                apu_ipi
+ .rodata.irq_node_map
+                0x00000000ffff25e0      0x154 ./build/zynqmp/release/bl31/pm_client.o
+ *fill*         0x00000000ffff2734        0x4 
+ .rodata.pm_procs_all
+                0x00000000ffff2738       0x40 ./build/zynqmp/release/bl31/pm_client.o
+ .rodata.bl31_main.str1.1
+                0x00000000ffff2778        0xb ./build/zynqmp/release/bl31/bl31_main.o
+ .rodata.bl31_prepare_next_image_entry.str1.1
+                0x00000000ffff2783       0x50 ./build/zynqmp/release/bl31/bl31_main.o
+ *fill*         0x00000000ffff27d3        0x5 
+ .rodata.psci_args.2810
+                0x00000000ffff27d8       0x10 ./build/zynqmp/release/bl31/bl31_main.o
+ .rodata.runtime_svc_init.str1.1
+                0x00000000ffff27e8       0x50 ./build/zynqmp/release/bl31/runtime_svc.o
+ .rodata.str1.1
+                0x00000000ffff2838        0xd ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .rodata.str1.1
+                0x00000000ffff2845        0x8 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .rodata.psci_warmboot_entrypoint.str1.1
+                0x00000000ffff284d       0x20 ./build/zynqmp/release/bl31/psci_common.o
+ *fill*         0x00000000ffff286d        0x3 
+ .rodata.psci_smc_handler
+                0x00000000ffff2870       0x2c ./build/zynqmp/release/bl31/psci_main.o
+ .rodata.psci_cpu_suspend.str1.1
+                0x00000000ffff289c       0x33 ./build/zynqmp/release/bl31/psci_main.o
+ *fill*         0x00000000ffff28cf        0x1 
+ .rodata.plat_prefix_str
+                0x00000000ffff28d0       0x28 ./build/zynqmp/release/bl31/plat_log_common.o
+ .rodata.str1.1
+                0x00000000ffff28f8       0x32 ./build/zynqmp/release/bl31/plat_log_common.o
+ .rodata.plat_ea_handler.str1.1
+                0x00000000ffff292a       0x5c ./build/zynqmp/release/bl31/plat_common.o
+ *fill*         0x00000000ffff2986        0x2 
+ .rodata.cci_map
+                0x00000000ffff2988        0x8 ./build/zynqmp/release/bl31/arm_cci.o
+ .rodata.arm_gic_data
+                0x00000000ffff2990       0x30 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .rodata.arm_interrupt_props
+                0x00000000ffff29c0       0x24 ./build/zynqmp/release/bl31/arm_gicv2.o
+ *fill*         0x00000000ffff29e4        0x4 
+ .rodata.plat_arm_mmap
+                0x00000000ffff29e8       0x80 ./build/zynqmp/release/bl31/zynqmp_common.o
+                0x00000000ffff29e8                plat_arm_mmap
+ .rodata.str1.1
+                0x00000000ffff2a68       0x70 ./build/zynqmp/release/bl31/zynqmp_common.o
+                                         0x80 (size before relaxing)
+ .rodata.zynqmp_config_setup.str1.1
+                0x00000000ffff2ad8       0x7c ./build/zynqmp/release/bl31/zynqmp_common.o
+ *fill*         0x00000000ffff2b54        0x4 
+ .rodata.zynqmp_devices
+                0x00000000ffff2b58      0x2b8 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .rodata.panic_str
+                0x00000000ffff2e10       0x11 ./build/zynqmp/release/bl31/debug.o
+ .rodata.str1.1
+                0x00000000ffff2e21        0x3 ./build/zynqmp/release/lib/libc.a(printf.o)
+                0x00000000ffff2e28                . = ALIGN (0x8)
+ *fill*         0x00000000ffff2e24        0x4 
+                0x00000000ffff2e28                __RT_SVC_DESCS_START__ = .
+ *(rt_svc_descs)
+ rt_svc_descs   0x00000000ffff2e28       0x20 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ rt_svc_descs   0x00000000ffff2e48       0x20 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ rt_svc_descs   0x00000000ffff2e68       0x20 ./build/zynqmp/release/bl31/std_svc_setup.o
+                0x00000000ffff2e88                __RT_SVC_DESCS_END__ = .
+                0x00000000ffff2e88                . = ALIGN (0x8)
+                0x00000000ffff2e88                __CPU_OPS_START__ = .
+ *(cpu_ops)
+ cpu_ops        0x00000000ffff2e88       0x60 ./build/zynqmp/release/bl31/aem_generic.o
+ cpu_ops        0x00000000ffff2ee8       0x30 ./build/zynqmp/release/bl31/cortex_a53.o
+                0x00000000ffff2f18                __CPU_OPS_END__ = .
+                0x00000000ffff2f20                . = ALIGN (0x10)
+ *fill*         0x00000000ffff2f18        0x8 
+                0x00000000ffff2f20                __GOT_START__ = .
+ *(.got)
+                0x00000000ffff2f20                __GOT_END__ = .
+                0x00000000ffff2f20                . = ALIGN (0x8)
+                0x00000000ffff2f20                __pubsub_psci_cpu_on_finish_start = .
+ *(__pubsub_psci_cpu_on_finish)
+                0x00000000ffff2f20                __pubsub_psci_cpu_on_finish_end = .
+                0x00000000ffff2f20                __pubsub_psci_suspend_pwrdown_start_start = .
+ *(__pubsub_psci_suspend_pwrdown_start)
+                0x00000000ffff2f20                __pubsub_psci_suspend_pwrdown_start_end = .
+                0x00000000ffff2f20                __pubsub_psci_suspend_pwrdown_finish_start = .
+ *(__pubsub_psci_suspend_pwrdown_finish)
+                0x00000000ffff2f20                __pubsub_psci_suspend_pwrdown_finish_end = .
+                0x00000000ffff2f20                __pubsub_cm_entering_secure_world_start = .
+ *(__pubsub_cm_entering_secure_world)
+ __pubsub_cm_entering_secure_world
+                0x00000000ffff2f20        0x8 ./build/zynqmp/release/bl31/spe.o
+                0x00000000ffff2f20                __cb_func_spe_drain_buffers_hookcm_entering_secure_world
+                0x00000000ffff2f28                __pubsub_cm_entering_secure_world_end = .
+                0x00000000ffff2f28                __pubsub_cm_exited_secure_world_start = .
+ *(__pubsub_cm_exited_secure_world)
+                0x00000000ffff2f28                __pubsub_cm_exited_secure_world_end = .
+                0x00000000ffff2f28                __pubsub_cm_entering_normal_world_start = .
+ *(__pubsub_cm_entering_normal_world)
+                0x00000000ffff2f28                __pubsub_cm_entering_normal_world_end = .
+                0x00000000ffff2f28                __pubsub_cm_exited_normal_world_start = .
+ *(__pubsub_cm_exited_normal_world)
+                0x00000000ffff2f28                __pubsub_cm_exited_normal_world_end = .
+                0x00000000ffff3000                . = ALIGN (0x1000)
+ *fill*         0x00000000ffff2f28       0xd8 
+                0x00000000ffff3000                __RODATA_END__ = .
+                0x0000000000000001                ASSERT ((__CPU_OPS_END__ > __CPU_OPS_START__), cpu_ops not defined for this platform.)
+                0x00000000ffff3000                __RW_START__ = .
+
+.data           0x00000000ffff3000     0x3778
+                0x00000000ffff3000                __DATA_START__ = .
+ *(.data*)
+ .data.pm_shutdown_scope
+                0x00000000ffff3000        0x4 ./build/zynqmp/release/bl31/pm_api_sys.o
+ .data.__compound_literal.0
+                0x00000000ffff3004       0x28 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.1
+                0x00000000ffff302c       0x2a ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.10
+                0x00000000ffff3056        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.100
+                0x00000000ffff305a       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.101
+                0x00000000ffff307a       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.102
+                0x00000000ffff309a       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.103
+                0x00000000ffff30ba       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.104
+                0x00000000ffff30de       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.105
+                0x00000000ffff3102       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.106
+                0x00000000ffff3126       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.107
+                0x00000000ffff3146       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.108
+                0x00000000ffff3176       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.109
+                0x00000000ffff31a6       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.11
+                0x00000000ffff31c2        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.110
+                0x00000000ffff31c8       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.111
+                0x00000000ffff31e4       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.112
+                0x00000000ffff3200       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.113
+                0x00000000ffff321c       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.114
+                0x00000000ffff3238       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.115
+                0x00000000ffff3254       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.116
+                0x00000000ffff3270       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.117
+                0x00000000ffff328c       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.118
+                0x00000000ffff32a8       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.119
+                0x00000000ffff32c4       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.12
+                0x00000000ffff32e0        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.120
+                0x00000000ffff32e4       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.121
+                0x00000000ffff3300       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.122
+                0x00000000ffff3330       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.123
+                0x00000000ffff334c       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.124
+                0x00000000ffff337c       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.125
+                0x00000000ffff339c       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.126
+                0x00000000ffff33bc       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.127
+                0x00000000ffff33dc       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.128
+                0x00000000ffff33fc       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.129
+                0x00000000ffff3420       0x22 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.13
+                0x00000000ffff3442        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.130
+                0x00000000ffff3446       0x22 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.131
+                0x00000000ffff3468       0x22 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.132
+                0x00000000ffff348a       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.133
+                0x00000000ffff34ae       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.134
+                0x00000000ffff34d2       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.14
+                0x00000000ffff34ee        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.15
+                0x00000000ffff34f2        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.16
+                0x00000000ffff34f6        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.17
+                0x00000000ffff34fa        0xe ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.18
+                0x00000000ffff3508        0xe ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.19
+                0x00000000ffff3516       0x26 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.2
+                0x00000000ffff353c        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.20
+                0x00000000ffff3540       0x26 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.21
+                0x00000000ffff3566       0x44 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.22
+                0x00000000ffff35aa        0x8 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.23
+                0x00000000ffff35b2        0x8 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.24
+                0x00000000ffff35ba        0x8 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.25
+                0x00000000ffff35c2       0x22 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.26
+                0x00000000ffff35e4        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.27
+                0x00000000ffff35ea        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.28
+                0x00000000ffff35f0        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.29
+                0x00000000ffff35f6        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.3
+                0x00000000ffff35fa        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.30
+                0x00000000ffff35fe        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.31
+                0x00000000ffff3604        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.32
+                0x00000000ffff360a        0x6 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.33
+                0x00000000ffff3610       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.34
+                0x00000000ffff3624       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.35
+                0x00000000ffff3638       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.36
+                0x00000000ffff364c       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.37
+                0x00000000ffff3660       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.38
+                0x00000000ffff3674       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.39
+                0x00000000ffff3688       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.4
+                0x00000000ffff369c        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.40
+                0x00000000ffff36a0       0x14 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.41
+                0x00000000ffff36b4       0x28 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.42
+                0x00000000ffff36dc       0x28 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.43
+                0x00000000ffff3704        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.44
+                0x00000000ffff3708        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.45
+                0x00000000ffff370c       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.46
+                0x00000000ffff3728       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.47
+                0x00000000ffff3744       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.48
+                0x00000000ffff3760       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.49
+                0x00000000ffff377c       0x1a ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.5
+                0x00000000ffff3796        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.50
+                0x00000000ffff379a       0x12 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.51
+                0x00000000ffff37ac       0x1a ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.52
+                0x00000000ffff37c6        0xa ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.53
+                0x00000000ffff37d0        0xe ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.54
+                0x00000000ffff37de        0x8 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.55
+                0x00000000ffff37e6        0x8 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.56
+                0x00000000ffff37ee        0x4 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.57
+                0x00000000ffff37f2       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.58
+                0x00000000ffff380e       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.59
+                0x00000000ffff382a       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.6
+                0x00000000ffff3846        0x8 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.60
+                0x00000000ffff384e       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.61
+                0x00000000ffff386a       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.62
+                0x00000000ffff3886       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.63
+                0x00000000ffff38a2       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.64
+                0x00000000ffff38be       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.65
+                0x00000000ffff38da       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.66
+                0x00000000ffff38f6       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.67
+                0x00000000ffff3912       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.68
+                0x00000000ffff392e       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.69
+                0x00000000ffff394a       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.7
+                0x00000000ffff3966       0x9e ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.70
+                0x00000000ffff3a04       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.71
+                0x00000000ffff3a24       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.72
+                0x00000000ffff3a44       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.73
+                0x00000000ffff3a64       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.74
+                0x00000000ffff3a84       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.75
+                0x00000000ffff3aa4       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.76
+                0x00000000ffff3ac4       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.77
+                0x00000000ffff3ae4       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.78
+                0x00000000ffff3b04       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.79
+                0x00000000ffff3b34       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.8
+                0x00000000ffff3b64       0x28 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.80
+                0x00000000ffff3b8c       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.81
+                0x00000000ffff3ba8       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.82
+                0x00000000ffff3bc4       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.83
+                0x00000000ffff3be0       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.84
+                0x00000000ffff3bfc       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.85
+                0x00000000ffff3c18       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.86
+                0x00000000ffff3c34       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.87
+                0x00000000ffff3c50       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.88
+                0x00000000ffff3c6c       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.89
+                0x00000000ffff3c88       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.9
+                0x00000000ffff3ca4       0x2a ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.90
+                0x00000000ffff3cce       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.91
+                0x00000000ffff3cea       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.92
+                0x00000000ffff3d06       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.93
+                0x00000000ffff3d22       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.94
+                0x00000000ffff3d3e       0x1c ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.95
+                0x00000000ffff3d5a       0x30 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.96
+                0x00000000ffff3d8a       0x20 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.97
+                0x00000000ffff3daa       0x34 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.98
+                0x00000000ffff3dde       0x24 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.99
+                0x00000000ffff3e02       0x26 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.pinctrl_functions
+                0x00000000ffff3e28      0x720 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .data.__compound_literal.0
+                0x00000000ffff4548        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.1
+                0x00000000ffff4550       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.10
+                0x00000000ffff4574       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.100
+                0x00000000ffff4598        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.101
+                0x00000000ffff45a4        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.102
+                0x00000000ffff45ac        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.103
+                0x00000000ffff45b4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.104
+                0x00000000ffff45c8        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.105
+                0x00000000ffff45d4        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.106
+                0x00000000ffff45e0        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.107
+                0x00000000ffff45ec        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.11
+                0x00000000ffff45f8        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.12
+                0x00000000ffff4604        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.13
+                0x00000000ffff460c       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.14
+                0x00000000ffff4630        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.15
+                0x00000000ffff4638        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.16
+                0x00000000ffff4644       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.17
+                0x00000000ffff4668        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.18
+                0x00000000ffff4674        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.19
+                0x00000000ffff467c       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.2
+                0x00000000ffff46a0        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.20
+                0x00000000ffff46a8        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.21
+                0x00000000ffff46b0        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.22
+                0x00000000ffff46bc       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.23
+                0x00000000ffff46e0        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.24
+                0x00000000ffff46ec        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.25
+                0x00000000ffff46f4       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.26
+                0x00000000ffff4718        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.27
+                0x00000000ffff4720        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.28
+                0x00000000ffff472c       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.29
+                0x00000000ffff4750        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.3
+                0x00000000ffff475c        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.30
+                0x00000000ffff4768       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.31
+                0x00000000ffff477c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.32
+                0x00000000ffff4784       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.33
+                0x00000000ffff4798       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.34
+                0x00000000ffff47ac       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.35
+                0x00000000ffff47c0       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.36
+                0x00000000ffff47d4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.37
+                0x00000000ffff47e8       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.38
+                0x00000000ffff47fc       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.39
+                0x00000000ffff4810        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.4
+                0x00000000ffff481c       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.40
+                0x00000000ffff4840       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.41
+                0x00000000ffff4854       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.42
+                0x00000000ffff4868       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.43
+                0x00000000ffff487c       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.44
+                0x00000000ffff4890       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.45
+                0x00000000ffff48a4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.46
+                0x00000000ffff48b8       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.47
+                0x00000000ffff48cc       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.48
+                0x00000000ffff48e0       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.49
+                0x00000000ffff48f4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.5
+                0x00000000ffff4908        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.50
+                0x00000000ffff4914       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.51
+                0x00000000ffff4928       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.52
+                0x00000000ffff493c        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.53
+                0x00000000ffff4948        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.54
+                0x00000000ffff4954        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.55
+                0x00000000ffff4960        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.56
+                0x00000000ffff496c       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.57
+                0x00000000ffff4980       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.58
+                0x00000000ffff4994       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.59
+                0x00000000ffff49a8       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.6
+                0x00000000ffff49bc        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.60
+                0x00000000ffff49c4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.61
+                0x00000000ffff49d8       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.62
+                0x00000000ffff49ec       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.63
+                0x00000000ffff4a00       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.64
+                0x00000000ffff4a14       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.65
+                0x00000000ffff4a28       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.66
+                0x00000000ffff4a3c       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.67
+                0x00000000ffff4a50       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.68
+                0x00000000ffff4a64       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.69
+                0x00000000ffff4a78       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.7
+                0x00000000ffff4a8c       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.70
+                0x00000000ffff4ab0        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.71
+                0x00000000ffff4abc       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.72
+                0x00000000ffff4ad0       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.73
+                0x00000000ffff4ae4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.74
+                0x00000000ffff4af8       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.75
+                0x00000000ffff4b0c       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.76
+                0x00000000ffff4b20       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.77
+                0x00000000ffff4b34       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.78
+                0x00000000ffff4b48       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.79
+                0x00000000ffff4b5c       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.8
+                0x00000000ffff4b70        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.80
+                0x00000000ffff4b78       0x24 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.81
+                0x00000000ffff4b9c       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.82
+                0x00000000ffff4bb0       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.83
+                0x00000000ffff4bc4       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.84
+                0x00000000ffff4bd8       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.85
+                0x00000000ffff4bec       0x14 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.86
+                0x00000000ffff4c00        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.87
+                0x00000000ffff4c08        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.88
+                0x00000000ffff4c10        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.89
+                0x00000000ffff4c18        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.9
+                0x00000000ffff4c20        0xc ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.90
+                0x00000000ffff4c2c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.91
+                0x00000000ffff4c34        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.92
+                0x00000000ffff4c3c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.93
+                0x00000000ffff4c44        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.94
+                0x00000000ffff4c4c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.95
+                0x00000000ffff4c54        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.96
+                0x00000000ffff4c5c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.97
+                0x00000000ffff4c64        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.98
+                0x00000000ffff4c6c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.__compound_literal.99
+                0x00000000ffff4c74        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.acpu_full_nodes
+                0x00000000ffff4c7c        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.acpu_half_nodes
+                0x00000000ffff4c84       0x10 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.acpu_nodes
+                0x00000000ffff4c94       0x10 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.can0_mio_nodes
+                0x00000000ffff4ca4        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.can0_nodes
+                0x00000000ffff4cac        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.can1_mio_nodes
+                0x00000000ffff4cb4        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.can1_nodes
+                0x00000000ffff4cbc        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.can_mio_parents
+                0x00000000ffff4cc4      0x13c ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.clocks   0x00000000ffff4e00     0x11a8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.cpu_r5_core_nodes
+                0x00000000ffff5fa8        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.ddr_nodes
+                0x00000000ffff5fb0       0x10 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.dll_ref_nodes
+                0x00000000ffff5fc0        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.dp_audio_video_ref_nodes
+                0x00000000ffff5fc8       0x20 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.ext_clocks
+                0x00000000ffff5fe8      0x582 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem0_ref_nodes
+                0x00000000ffff656a        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem1_ref_nodes
+                0x00000000ffff6572        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem2_ref_nodes
+                0x00000000ffff657a        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem3_ref_nodes
+                0x00000000ffff6582        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem_ref_ungated_nodes
+                0x00000000ffff658a       0x18 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem_rx_nodes
+                0x00000000ffff65a2        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem_tsu_nodes
+                0x00000000ffff65aa        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gem_tx_nodes
+                0x00000000ffff65b2        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_domain_crossing_nodes
+                0x00000000ffff65ba        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_mux_div_div_gate_nodes
+                0x00000000ffff65c2       0x20 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_mux_div_gate_nodes
+                0x00000000ffff65e2       0x18 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_mux_div_nodes
+                0x00000000ffff65fa       0x10 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_mux_div_unused_gate_nodes
+                0x00000000ffff660a       0x18 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_pll_half_nodes
+                0x00000000ffff6622        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_pll_int_nodes
+                0x00000000ffff662a        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_pll_nodes
+                0x00000000ffff6632        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_pll_post_src_nodes
+                0x00000000ffff663a        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_pll_pre_src_nodes
+                0x00000000ffff6642        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.generic_pll_system_nodes
+                0x00000000ffff664a        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gpu_pp0_nodes
+                0x00000000ffff6652        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.gpu_pp1_nodes
+                0x00000000ffff665a        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.ignore_unused_pll_nodes
+                0x00000000ffff6662        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.pl_nodes
+                0x00000000ffff666a       0x20 ./build/zynqmp/release/bl31/pm_api_clock.o
+ *fill*         0x00000000ffff668a        0x2 
+ .data.pm_plls  0x00000000ffff668c       0x8c ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.rpll_to_fpd_nodes
+                0x00000000ffff6718        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.timestamp_ref_nodes
+                0x00000000ffff6720       0x18 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.usb_nodes
+                0x00000000ffff6738       0x20 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.wdt_nodes
+                0x00000000ffff6758        0x8 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .data.primary_proc
+                0x00000000ffff6760        0x8 ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000ffff6760                primary_proc
+ .data.next_image_type
+                0x00000000ffff6768        0x4 ./build/zynqmp/release/bl31/bl31_main.o
+ .data.max_log_level
+                0x00000000ffff676c        0x4 ./build/zynqmp/release/bl31/tf_log.o
+ .data.console_base
+                0x00000000ffff6770        0x8 ./build/zynqmp/release/bl31/console.o
+                0x00000000ffff6778                __DATA_END__ = .
+
+.igot.plt       0x00000000ffff6778        0x0
+ .igot.plt      0x00000000ffff6778        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+                0x00000000ffff6780                . = ALIGN (0x10)
+                0x00000000ffff6780                __RELA_START__ = .
+
+.rela.dyn       0x00000000ffff6780        0x0
+ .rela.iplt     0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.bl31_plat_arch_setup
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.zynqmp_pwr_domain_suspend
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.zynqmp_pwr_domain_on
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.plat_setup_psci_ops
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.runtime_svc_init
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.cm_el1_sysregs_context_restore
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_do_cpu_off
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_cpu_on_start
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_cpu_on_finish
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_cpu_suspend_start
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_cpu_suspend_finish
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_validate_power_state
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_query_sys_suspend_pwrstate
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_get_target_local_pwr_states
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_get_parent_pwr_domain_nodes
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_set_pwr_domains_to_run
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_do_state_coordination
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_acquire_pwr_domain_locks
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_validate_entry_point
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_spd_migrate_info
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_cpu_suspend
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_migrate
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_node_hw_state
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_features
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_smc_handler
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_setup
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_system_off
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_system_reset
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_system_reset2
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_mem_protect
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.psci_mem_chk_range
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.asm.bl31_entrypoint
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.asm.smc_handler
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.asm._cpu_data_by_index
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .rela.text.asm.get_cpu_ops_ptr
+                0x00000000ffff6780        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+                0x00000000ffff6780                __RELA_END__ = .
+
+stacks          0x00000000ffff6780     0x1100
+                0x00000000ffff6780                __STACKS_START__ = .
+ *(tzfw_normal_stacks)
+ tzfw_normal_stacks
+                0x00000000ffff6780     0x1100 ./build/zynqmp/release/bl31/platform_mp_stack.o
+                0x00000000ffff7880                __STACKS_END__ = .
+
+.bss            0x00000000ffff7880      0xd94
+                0x00000000ffff7880                __BSS_START__ = .
+ *(.bss*)
+ .bss.cci_base  0x00000000ffff7880        0x8 ./build/zynqmp/release/bl31/cci.o
+ .bss.cci_slave_if_map
+                0x00000000ffff7888        0x8 ./build/zynqmp/release/bl31/cci.o
+ .bss.bl32_image_ep_info
+                0x00000000ffff7890       0x58 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .bss.bl33_image_ep_info
+                0x00000000ffff78e8       0x58 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .bss.ipi_irq_flag
+                0x00000000ffff7940        0x4 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .bss.pm_ctx    0x00000000ffff7944       0x1c ./build/zynqmp/release/bl31/pm_svc_main.o
+ .bss.pm_up     0x00000000ffff7960        0x4 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .bss.suspend_mode
+                0x00000000ffff7964        0x4 ./build/zynqmp/release/bl31/pm_client.o
+ .bss.bl32_init
+                0x00000000ffff7968        0x8 ./build/zynqmp/release/bl31/bl31_main.o
+ .bss.intr_type_descs
+                0x00000000ffff7970       0x48 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .bss.psci_req_local_pwr_states
+                0x00000000ffff79b8        0x4 ./build/zynqmp/release/bl31/psci_common.o
+ *fill*         0x00000000ffff79bc        0x4 
+ .bss.psci_ns_context
+                0x00000000ffff79c0      0x8c0 ./build/zynqmp/release/bl31/psci_setup.o
+ .bss.ap1_mask  0x00000000ffff8280        0x8 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .bss.execute_never_mask
+                0x00000000ffff8288        0x8 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .bss.mmap      0x00000000ffff8290      0x100 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .bss.next_xlat
+                0x00000000ffff8390        0x4 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ *fill*         0x00000000ffff8394        0x4 
+ .bss.xlat_max_pa
+                0x00000000ffff8398        0x8 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .bss.xlat_max_va
+                0x00000000ffff83a0        0x8 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ *fill*         0x00000000ffff83a8       0x18 
+ .bss.base_xlation_table
+                0x00000000ffff83c0       0x20 ./build/zynqmp/release/bl31/xlat_tables.o
+ .bss.tcr_ps_bits
+                0x00000000ffff83e0        0x8 ./build/zynqmp/release/bl31/xlat_tables.o
+ .bss.timer_ops
+                0x00000000ffff83e8        0x8 ./build/zynqmp/release/bl31/delay_timer.o
+ .bss.ops       0x00000000ffff83f0       0x10 ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .bss.driver_data
+                0x00000000ffff8400        0x8 ./build/zynqmp/release/bl31/gicv2_main.o
+ .bss.target_mask_array
+                0x00000000ffff8408       0x10 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .bss.ipi_table
+                0x00000000ffff8418        0x8 ./build/zynqmp/release/bl31/ipi.o
+ .bss.ipi_total
+                0x00000000ffff8420        0x4 ./build/zynqmp/release/bl31/ipi.o
+ .bss.ver.2221  0x00000000ffff8424        0x4 ./build/zynqmp/release/bl31/zynqmp_common.o
+ *(COMMON)
+ COMMON         0x00000000ffff8428        0x8 ./build/zynqmp/release/bl31/plat_psci.o
+                0x00000000ffff8428                zynqmp_sec_entry
+ COMMON         0x00000000ffff8430       0x80 ./build/zynqmp/release/bl31/runtime_svc.o
+                0x00000000ffff8430                rt_svc_descs_indices
+ *fill*         0x00000000ffff84b0       0x10 
+ COMMON         0x00000000ffff84c0      0x100 ./build/zynqmp/release/bl31/cpu_data_array.o
+                0x00000000ffff84c0                percpu_data
+ COMMON         0x00000000ffff85c0       0x50 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000ffff85c0                psci_cpu_pd_nodes
+                0x00000000ffff8600                psci_plat_pm_ops
+                0x00000000ffff8608                psci_spd_pm
+ COMMON         0x00000000ffff8610        0x4 ./build/zynqmp/release/bl31/psci_setup.o
+                0x00000000ffff8610                psci_caps
+                0x00000000ffff8614                __BSS_END__ = .
+
+xlat_table      0x00000000ffff9000     0x5000
+ *(xlat_table)
+ xlat_table     0x00000000ffff9000     0x5000 ./build/zynqmp/release/bl31/xlat_tables_common.o
+
+coherent_ram    0x00000000ffffe000     0x1000
+                0x00000000ffffe000                __COHERENT_RAM_START__ = .
+ *(bakery_lock)
+ bakery_lock    0x00000000ffffe000        0x8 ./build/zynqmp/release/bl31/pm_ipi.o
+                0x00000000ffffe000                pm_secure_lock
+ bakery_lock    0x00000000ffffe008        0x8 ./build/zynqmp/release/bl31/pm_client.o
+                0x00000000ffffe008                pm_client_secure_lock
+ bakery_lock    0x00000000ffffe010       0x20 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000ffffe010                psci_locks
+ *(tzfw_coherent_mem)
+ tzfw_coherent_mem
+                0x00000000ffffe030       0x40 ./build/zynqmp/release/bl31/psci_common.o
+                0x00000000ffffe030                psci_non_cpu_pd_nodes
+                0x00000000ffffe070                __COHERENT_RAM_END_UNALIGNED__ = .
+                0x00000000fffff000                . = ALIGN (0x1000)
+ *fill*         0x00000000ffffe070      0xf90 
+                0x00000000fffff000                __COHERENT_RAM_END__ = .
+                0x00000000fffff000                __RW_END__ = .
+                0x00000000fffff000                __BL31_END__ = .
+                0x0000000000000001                ASSERT ((. <= 0xffffffff), BL31 image has exceeded its limit.)
+LOAD ./build/zynqmp/release/bl31/build_message.o
+LOAD ./build/zynqmp/release/bl31/cci.o
+LOAD ./build/zynqmp/release/bl31/plat_psci_common.o
+LOAD ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+LOAD ./build/zynqmp/release/bl31/pm_ipi.o
+LOAD ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+LOAD ./build/zynqmp/release/bl31/plat_psci.o
+LOAD ./build/zynqmp/release/bl31/plat_zynqmp.o
+LOAD ./build/zynqmp/release/bl31/plat_startup.o
+LOAD ./build/zynqmp/release/bl31/plat_topology.o
+LOAD ./build/zynqmp/release/bl31/sip_svc_setup.o
+LOAD ./build/zynqmp/release/bl31/zynqmp_ipi.o
+LOAD ./build/zynqmp/release/bl31/pm_svc_main.o
+LOAD ./build/zynqmp/release/bl31/pm_api_sys.o
+LOAD ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+LOAD ./build/zynqmp/release/bl31/pm_api_ioctl.o
+LOAD ./build/zynqmp/release/bl31/pm_api_clock.o
+LOAD ./build/zynqmp/release/bl31/pm_client.o
+LOAD ./build/zynqmp/release/bl31/bl31_main.o
+LOAD ./build/zynqmp/release/bl31/interrupt_mgmt.o
+LOAD ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+LOAD ./build/zynqmp/release/bl31/runtime_svc.o
+LOAD ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+LOAD ./build/zynqmp/release/bl31/std_svc_setup.o
+LOAD ./build/zynqmp/release/bl31/cpu_data_array.o
+LOAD ./build/zynqmp/release/bl31/context_mgmt.o
+LOAD ./build/zynqmp/release/bl31/errata_report.o
+LOAD ./build/zynqmp/release/bl31/psci_off.o
+LOAD ./build/zynqmp/release/bl31/psci_on.o
+LOAD ./build/zynqmp/release/bl31/psci_suspend.o
+LOAD ./build/zynqmp/release/bl31/psci_common.o
+LOAD ./build/zynqmp/release/bl31/psci_main.o
+LOAD ./build/zynqmp/release/bl31/psci_setup.o
+LOAD ./build/zynqmp/release/bl31/psci_system_off.o
+LOAD ./build/zynqmp/release/bl31/psci_mem_protect.o
+LOAD ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+LOAD ./build/zynqmp/release/bl31/spe.o
+LOAD ./build/zynqmp/release/bl31/bl_common.o
+LOAD ./build/zynqmp/release/bl31/tf_log.o
+LOAD ./build/zynqmp/release/bl31/plat_bl_common.o
+LOAD ./build/zynqmp/release/bl31/plat_log_common.o
+LOAD ./build/zynqmp/release/bl31/plat_common.o
+LOAD ./build/zynqmp/release/bl31/xlat_tables_common.o
+LOAD ./build/zynqmp/release/bl31/xlat_tables.o
+LOAD ./build/zynqmp/release/bl31/delay_timer.o
+LOAD ./build/zynqmp/release/bl31/generic_delay_timer.o
+LOAD ./build/zynqmp/release/bl31/gic_common.o
+LOAD ./build/zynqmp/release/bl31/gicv2_main.o
+LOAD ./build/zynqmp/release/bl31/gicv2_helpers.o
+LOAD ./build/zynqmp/release/bl31/arm_cci.o
+LOAD ./build/zynqmp/release/bl31/arm_common.o
+LOAD ./build/zynqmp/release/bl31/arm_gicv2.o
+LOAD ./build/zynqmp/release/bl31/plat_gicv2.o
+LOAD ./build/zynqmp/release/bl31/ipi.o
+LOAD ./build/zynqmp/release/bl31/zynqmp_common.o
+LOAD ./build/zynqmp/release/bl31/aem_generic.o
+LOAD ./build/zynqmp/release/bl31/cortex_a53.o
+LOAD ./build/zynqmp/release/bl31/bl31_entrypoint.o
+LOAD ./build/zynqmp/release/bl31/crash_reporting.o
+LOAD ./build/zynqmp/release/bl31/ea_delegate.o
+LOAD ./build/zynqmp/release/bl31/runtime_exceptions.o
+LOAD ./build/zynqmp/release/bl31/setjmp.o
+LOAD ./build/zynqmp/release/bl31/dsu_helpers.o
+LOAD ./build/zynqmp/release/bl31/platform_mp_stack.o
+LOAD ./build/zynqmp/release/bl31/cpu_data.o
+LOAD ./build/zynqmp/release/bl31/cpu_helpers.o
+LOAD ./build/zynqmp/release/bl31/spinlock.o
+LOAD ./build/zynqmp/release/bl31/psci_helpers.o
+LOAD ./build/zynqmp/release/bl31/context.o
+LOAD ./build/zynqmp/release/bl31/debug.o
+LOAD ./build/zynqmp/release/bl31/cache_helpers.o
+LOAD ./build/zynqmp/release/bl31/misc_helpers.o
+LOAD ./build/zynqmp/release/bl31/platform_helpers.o
+LOAD ./build/zynqmp/release/bl31/console.o
+LOAD ./build/zynqmp/release/bl31/zynqmp_helpers.o
+LOAD ./build/zynqmp/release/bl31/cdns_console.o
+LOAD ./build/zynqmp/release/lib/libc.a
+OUTPUT(build/zynqmp/release/bl31/bl31.elf elf64-littleaarch64)
+
+.comment        0x0000000000000000       0x32
+ .comment       0x0000000000000000       0x32 ./build/zynqmp/release/bl31/build_message.o
+                                         0x33 (size before relaxing)
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/cci.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_psci_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_ipi.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_psci.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_zynqmp.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_startup.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_topology.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_api_sys.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/pm_client.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/bl31_main.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/runtime_svc.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/cpu_data_array.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/context_mgmt.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_off.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_on.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_suspend.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_main.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_setup.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_system_off.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/psci_mem_protect.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/spe.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/bl_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/tf_log.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_log_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/xlat_tables.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/delay_timer.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/gic_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/gicv2_main.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/arm_cci.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/arm_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/ipi.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/lib/libc.a(memcpy.o)
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/lib/libc.a(memmove.o)
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/lib/libc.a(memset.o)
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/lib/libc.a(putchar.o)
+ .comment       0x0000000000000032       0x33 ./build/zynqmp/release/lib/libc.a(strlen.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/build_message.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cci.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi_mailbox_svc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_ipi.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_zynqmp_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_psci.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_zynqmp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_topology.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/sip_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_ipi.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_svc_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_sys.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_pinctrl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_ioctl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_api_clock.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/pm_client.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/interrupt_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl31_context_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/runtime_svc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_arch_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/std_svc_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/cpu_data_array.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/context_mgmt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_off.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_on.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_suspend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_setup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_system_off.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/psci_mem_protect.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bakery_lock_coherent.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/spe.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/tf_log.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_bl_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_log_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/xlat_tables.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/generic_delay_timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gic_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/gicv2_helpers.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_cci.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/arm_gicv2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/plat_gicv2.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/ipi.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/bl31/zynqmp_common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memcpy.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memmove.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(memset.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(printf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(putchar.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 ./build/zynqmp/release/lib/libc.a(strlen.o)
+
+.debug_frame    0x0000000000000000      0xce8
+ .debug_frame   0x0000000000000000       0x58 ./build/zynqmp/release/bl31/aem_generic.o
+ .debug_frame   0x0000000000000058      0x160 ./build/zynqmp/release/bl31/cortex_a53.o
+ .debug_frame   0x00000000000001b8       0x40 ./build/zynqmp/release/bl31/bl31_entrypoint.o
+ .debug_frame   0x00000000000001f8       0x40 ./build/zynqmp/release/bl31/crash_reporting.o
+ .debug_frame   0x0000000000000238       0xa0 ./build/zynqmp/release/bl31/ea_delegate.o
+ .debug_frame   0x00000000000002d8      0x1a8 ./build/zynqmp/release/bl31/runtime_exceptions.o
+ .debug_frame   0x0000000000000480       0x40 ./build/zynqmp/release/bl31/platform_mp_stack.o
+ .debug_frame   0x00000000000004c0       0x40 ./build/zynqmp/release/bl31/cpu_data.o
+ .debug_frame   0x0000000000000500       0xe8 ./build/zynqmp/release/bl31/cpu_helpers.o
+ .debug_frame   0x00000000000005e8       0x40 ./build/zynqmp/release/bl31/spinlock.o
+ .debug_frame   0x0000000000000628       0x58 ./build/zynqmp/release/bl31/psci_helpers.o
+ .debug_frame   0x0000000000000680       0xa0 ./build/zynqmp/release/bl31/context.o
+ .debug_frame   0x0000000000000720       0x58 ./build/zynqmp/release/bl31/debug.o
+ .debug_frame   0x0000000000000778       0xe8 ./build/zynqmp/release/bl31/cache_helpers.o
+ .debug_frame   0x0000000000000860      0x130 ./build/zynqmp/release/bl31/misc_helpers.o
+ .debug_frame   0x0000000000000990      0x148 ./build/zynqmp/release/bl31/platform_helpers.o
+ .debug_frame   0x0000000000000ad8       0x88 ./build/zynqmp/release/bl31/console.o
+ .debug_frame   0x0000000000000b60       0xd0 ./build/zynqmp/release/bl31/zynqmp_helpers.o
+ .debug_frame   0x0000000000000c30       0xb8 ./build/zynqmp/release/bl31/cdns_console.o
